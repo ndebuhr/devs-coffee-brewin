@@ -101,7 +101,7 @@ public class BrewerControl extends ViewableAtomic {
 	    phase = "Passive";
 	    sigma = INFINITY;
 	} else if (phaseIs("BrewReady")) {
-	    holdIn("BrewReady", indicator_timeout);
+	    holdIn("Standby", indicator_timeout);
 	} else if (phaseIs("Standby")) {
 	    phase = "Passive";
 	    sigma = INFINITY;
