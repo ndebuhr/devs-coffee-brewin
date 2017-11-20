@@ -18,10 +18,12 @@ public class ComposedBrewer extends ViewableDigraph
 	super("ComposedBrewer");
 	
 	ViewableAtomic controller = new BrewerControl();
-	ViewableAtomic requester = new Requester();
+	// ViewableAtomic requester = new Requester();
+	ViewableAtomic boiler = new Boiler();
 	
 	add(controller);
-	add(requester);
+	// add(requester);
+	add(boiler);
 	
 	addInport("inThermo");
 	addInport("inUser");
@@ -30,10 +32,13 @@ public class ComposedBrewer extends ViewableDigraph
 	
 	addCoupling(this, "inThermo", controller, "inThermo");
 	addCoupling(this, "inUser", controller, "inUser");
-	addCoupling(requester, "forThermo", controller, "inThermo");
-	addCoupling(requester, "forUser", controller, "inUser");
+	// addCoupling(requester, "forThermo", controller, "inThermo");
+	// addCoupling(requester, "forUser", controller, "inUser");
 	addCoupling(controller, "outThermo", this, "outThermo");
 	addCoupling(controller, "outUser", this, "outUser");
+
+	addCoupling(controller, "outThermo", boiler, "ControlSignal");
+	addCoupling(boiler, "Status", controller, "inThermo");
 
 	addTestInput("inThermo", new entity("4"), 1);
 	addTestInput("inThermo", new entity("8"), 5);
