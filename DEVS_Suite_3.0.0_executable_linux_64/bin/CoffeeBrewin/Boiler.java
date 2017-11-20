@@ -119,6 +119,8 @@ public class Boiler extends ViewableAtomic {
 	    if (brewed_part < 100) {
 		String current_temp = Double.toString(boiler_temp);
 		m.add(makeContent("Status", new entity(current_temp)));
+	    } else {
+		m.add(makeContent("Status", new entity("0")));
 	    }
 	}
 	return m;
