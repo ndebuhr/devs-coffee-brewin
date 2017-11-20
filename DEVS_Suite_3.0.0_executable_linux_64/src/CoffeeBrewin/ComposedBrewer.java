@@ -57,6 +57,7 @@ public class ComposedBrewer extends ViewableDigraph
     public void layoutForSimView()
     {
         preferredSize = new Dimension(591, 269);
-	
+        ((ViewableComponent)withName("Boiler")).setPreferredLocation(new Point(49, 187));
+        ((ViewableComponent)withName("BrewerControl")).setPreferredLocation(new Point(50, 50));
     }
 }

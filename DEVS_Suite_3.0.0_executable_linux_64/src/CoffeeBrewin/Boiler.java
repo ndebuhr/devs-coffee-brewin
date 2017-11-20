@@ -12,6 +12,9 @@ import model.simulation.*;
 import view.modeling.ViewableAtomic;
 import view.simView.*;
 import view.modeling.ViewableComponent;
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 
 public class Boiler extends ViewableAtomic {
     // ViewableAtomic is used instead
@@ -93,6 +96,13 @@ public class Boiler extends ViewableAtomic {
 		brewed_part = brewed_part + (time_step/flow);
 		holdIn("Brewing", time_step);
 	    }
+	}
+	try {
+	    PrintWriter writer = new PrintWriter("thermo-vals.txt", "UTF-8");
+	    writer.println("BoilerTemp:" + Double.toString(boiler_temp));
+	    writer.println("PortionBrewed:" + Double.toString(brewed_part));
+	    writer.close();
+	} catch (FileNotFoundException|UnsupportedEncodingException e) {
 	}
 	System.out.println("Internal-Phase after: " + phase);
     }

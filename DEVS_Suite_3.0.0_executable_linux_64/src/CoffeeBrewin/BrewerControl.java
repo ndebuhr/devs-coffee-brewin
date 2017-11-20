@@ -12,6 +12,9 @@ import model.simulation.*;
 import view.modeling.ViewableAtomic;
 import view.simView.*;
 import view.modeling.ViewableComponent;
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 
 public class BrewerControl extends ViewableAtomic {
     // ViewableAtomic is used instead
@@ -117,17 +120,28 @@ public class BrewerControl extends ViewableAtomic {
 
     public message out() {
 	message m = new message();
+	String out_user = "Blank";
 	if (phaseIs("BrewRequest")) {
 	    m.add(makeContent("outThermo", new entity("True")));
 	    m.add(makeContent("outUser", new entity("Brewing")));
+	    out_user = "Brewing";
 	} else if (phaseIs("BrewTerminate")) {
 	    m.add(makeContent("outThermo", new entity("False")));
 	    m.add(makeContent("outUser", new entity("Blank")));
+	    out_user = "Blank";
 	} else if (phaseIs("BrewReady")) {
 	    m.add(makeContent("outThermo", new entity("False")));
 	    m.add(makeContent("outUser", new entity("Ready")));
+	    out_user = "Ready";
 	} else if (phaseIs("Standby")) {
 	    m.add(makeContent("outUser", new entity("Blank")));
+	    out_user = "Blank";
+	}
+	try {
+	    PrintWriter writer = new PrintWriter("control-vals.txt", "UTF-8");
+	    writer.println("OutUser:" + out_user);
+	    writer.close();
+	} catch (FileNotFoundException|UnsupportedEncodingException e) {
 	}
 	return m;
     }
