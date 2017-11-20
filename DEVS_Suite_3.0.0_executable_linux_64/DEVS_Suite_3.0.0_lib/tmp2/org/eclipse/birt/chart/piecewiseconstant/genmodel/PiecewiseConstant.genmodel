@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.eclipse.birt.chart.timeview.piecewiseconstant/src"
+    modelPluginID="org.eclipse.birt.chart.timeview.piecewiseconstant" modelName="PiecewiseConstant"
+    importerID="org.eclipse.xsd.ecore.importer" complianceLevel="6.0" copyrightFields="false"
+    usedGenPackages="../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//attribute ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//component ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//data ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//type ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//layout ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//model">
+  <foreignModel>PiecewiseConstant.xsd</foreignModel>
+  <genPackages prefix="Model" basePackage="org.eclipse.birt.chart.timeview.piecewiseconstant"
+      resource="XML" disposableProviderFactory="true" ecorePackage="model1.ecore#/">
+    <genClasses ecoreClass="model1.ecore#//PiecewiseConstant">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model1.ecore#//PiecewiseConstant/lineAttributes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model1.ecore#//PiecewiseConstant/showPositiveInfinityBand"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model1.ecore#//PiecewiseConstant/showNegativeInfinityBand"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model1.ecore#//PiecewiseConstant/positiveInfinityPercent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model1.ecore#//PiecewiseConstant/negativeInfinityPercent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model1.ecore#//PiecewiseConstant/showConfluentPlot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model1.ecore#//PiecewiseConstant/confluentAxesLineAttributes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model1.ecore#//PiecewiseConstant/confluentPlotPresent"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

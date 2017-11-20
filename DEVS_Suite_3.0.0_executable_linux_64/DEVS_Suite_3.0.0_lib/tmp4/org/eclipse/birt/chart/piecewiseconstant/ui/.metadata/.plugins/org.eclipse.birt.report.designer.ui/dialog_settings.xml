@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="Shell {Edit Data Set - Data Set}/Shell {New Chart}/Shell {Report Design - Test2/new_report_2.rptdesign - Eclipse Platform}">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="-45" key="DIALOG_Y_ORIGIN"/>
+		<item value="18" key="DIALOG_X_ORIGIN"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="Shell {Edit Data Set - Data Set}/Shell {New Chart}/Shell {Report Design - Test2/new_report_5.rptdesign - Eclipse Platform}">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="48" key="DIALOG_Y_ORIGIN"/>
+		<item value="18" key="DIALOG_X_ORIGIN"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="Shell {Edit Data Set - Data Set}/Shell {New Chart}/Shell {Report Design - Test2/new_report_7.rptdesign - Eclipse Platform}">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="48" key="DIALOG_Y_ORIGIN"/>
+		<item value="18" key="DIALOG_X_ORIGIN"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="Shell {Edit Data Set - Data Set}/Shell {New Chart}/Shell {Report Design - Test2/new_report_3.rptdesign - Eclipse Platform}">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="31" key="DIALOG_Y_ORIGIN"/>
+		<item value="18" key="DIALOG_X_ORIGIN"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="Shell {Edit Data Set - Data Set}/Shell {New Chart}/Shell {Report Design - Test2/new_report_4.rptdesign - Eclipse Platform}">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="48" key="DIALOG_Y_ORIGIN"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="18" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="Shell {Edit Data Set - Data Set}/Shell {New Chart}/Shell {Report Design - Test2/new_report_8.rptdesign - Eclipse Platform}">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="48" key="DIALOG_Y_ORIGIN"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="18" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="Shell {Edit Data Set - Data Set}/Shell {New Chart}/Shell {Report Design - Test2/new_report_6.rptdesign - Eclipse Platform}">
+		<item value="800" key="DIALOG_WIDTH"/>
+		<item value="640" key="SASHFORM.RIGHT"/>
+		<item value="160" key="SASHFORM.LEFT"/>
+		<item value="48" key="DIALOG_Y_ORIGIN"/>
+		<item value="500" key="DIALOG_HEIGHT"/>
+		<item value="18" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+	</section>
+</section>

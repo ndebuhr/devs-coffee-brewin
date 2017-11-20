@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.eclipse.birt.chart.event.datapointdefinition/src"
+    modelPluginID="org.eclipse.birt.chart.event.datapointdefinition" modelName="EventGraph"
+    importerID="org.eclipse.xsd.ecore.importer" complianceLevel="6.0" copyrightFields="false"
+    usedGenPackages="../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//attribute ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//component ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//data ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//type ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//layout ../../../../../../../../org.eclipse.birt.chart.engine/src/model/model.genmodel#//model">
+  <foreignModel>Event.xsd</foreignModel>
+  <genPackages prefix="Model" basePackage="org.eclipse.birt.chart.event.datapointdefinition.event"
+      resource="XML" disposableProviderFactory="true" ecorePackage="model.ecore#/">
+    <genClasses ecoreClass="model.ecore#//EventSeries">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//EventSeries/lineAttributes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//EventSeries/showPositiveInfinityBand"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//EventSeries/showNegativeInfinityBand"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//EventSeries/positiveInfinityPercent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//EventSeries/negativeInfinityPercent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//EventSeries/showConfluentPlot"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//EventSeries/confluentAxesLineAttributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//EventSeries/confluentAxesLabel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//EventSeries/confluentAxesLabelPosition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference model.ecore#//EventSeries/arrowColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//EventSeries/confluentPlotPresent"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

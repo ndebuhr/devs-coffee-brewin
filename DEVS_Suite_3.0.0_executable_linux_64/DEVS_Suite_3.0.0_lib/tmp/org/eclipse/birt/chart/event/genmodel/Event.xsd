@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.event.timeview.chart.birt.eclipse.org/model"
+	xmlns:tns="http://www.event.timeview.chart.birt.eclipse.org/model"
+	elementFormDefault="qualified"
+	xmlns:pref="http://www.birt.eclipse.org/ChartModelAttribute"
+	xmlns:pref1="http://www.birt.eclipse.org/ChartModelComponent"
+	xmlns:pref2="http://www.birt.eclipse.org/ChartModelData"
+	xmlns:pref3="http://www.birt.eclipse.org/ChartModelLayout"
+	xmlns:pref4="http://www.birt.eclipse.org/ChartModel"
+	xmlns:pref5="http://www.birt.eclipse.org/ChartModelType">
+
+	<xsd:import schemaLocation="attribute.xsd" namespace="http://www.birt.eclipse.org/ChartModelAttribute">
+	</xsd:import>
+	<xsd:import schemaLocation="component.xsd" namespace="http://www.birt.eclipse.org/ChartModelComponent">
+	</xsd:import>
+	<xsd:import schemaLocation="data.xsd" namespace="http://www.birt.eclipse.org/ChartModelData">
+	</xsd:import>
+	<xsd:import schemaLocation="layout.xsd" namespace="http://www.birt.eclipse.org/ChartModelLayout">
+	</xsd:import>
+	<xsd:import schemaLocation="model.xsd" namespace="http://www.birt.eclipse.org/ChartModel">
+	</xsd:import>
+	<xsd:import schemaLocation="type.xsd" namespace="http://www.birt.eclipse.org/ChartModelType"></xsd:import>
+	<xsd:complexType name="EventSeries">
+		<xsd:complexContent>
+			<xsd:extension base="pref1:Series">
+				<xsd:annotation>
+					<xsd:documentation xml:lang="en">
+						This is a Series type that, during design time,
+						holds the data supplied by the user or simulator
+						for TimeView charts, and during run time, holds
+						the value for each data point in the line. When
+						rendered, a line connects each data point as
+						piece-wise constant or events.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:sequence>
+					<xsd:element name="LineAttributes"
+						type="pref:LineAttributes">
+					</xsd:element>
+					<xsd:element name="showPositiveInfinityBand"
+						type="xsd:boolean">
+					</xsd:element>
+					<xsd:element name="showNegativeInfinityBand"
+						type="xsd:boolean">
+					</xsd:element>
+					<xsd:element name="positiveInfinityPercent"
+						type="xsd:double">
+					</xsd:element>
+					<xsd:element name="negativeInfinityPercent"
+						type="xsd:double">
+					</xsd:element>
+					<xsd:element name="showConfluentPlot"
+						type="xsd:boolean">
+					</xsd:element>
+					<xsd:element name="confluentAxesLineAttributes"
+						type="pref:LineAttributes">
+					</xsd:element>
+					<xsd:element name="ConfluentAxesLabel"
+						type="pref1:Label">
+					</xsd:element>
+					<xsd:element name="ConfluentAxesLabelPosition"
+						type="pref:Position">
+					</xsd:element>
+					<xsd:element name="ArrowColor"
+						type="pref:ColorDefinition">
+					</xsd:element>
+					<xsd:element name="ConfluentPlotPresent" type="xsd:boolean"></xsd:element>
+				</xsd:sequence>
+			</xsd:extension>
+				</xsd:complexContent>
+	</xsd:complexType>
+</xsd:schema>

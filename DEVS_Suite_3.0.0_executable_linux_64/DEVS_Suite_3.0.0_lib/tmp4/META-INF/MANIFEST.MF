@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Require-Bundle: com.ibm.icu;bundle-version="[50.1.1,60.1.1)",org.eclip
+ se.birt.chart.engine;bundle-version="[4.2.0,5.0.0)",org.eclipse.birt.
+ chart.engine.extension;bundle-version="[4.2.0,5.0.0)",org.eclipse.bir
+ t.chart.ui;bundle-version="[4.2.0,5.0.0)",org.eclipse.birt.chart.ui.e
+ xtension;bundle-version="[4.2.0,5.0.0)",org.eclipse.core.runtime;bund
+ le-version="[3.8.0,4.0.0)",org.eclipse.emf.ecore;bundle-version="[2.8
+ .0,2.12.0)",org.eclipse.emf.ecore.xmi;bundle-version="[2.8.0,2.12.0)"
+ ,org.eclipse.birt.chart.device.extension;bundle-version="4.3.2",org.e
+ clipse.birt.chart.device.swt;bundle-version="4.3.2"
+Export-Package: org.eclipse.birt.chart.piecewiseconstant.genmodel,org.
+ eclipse.birt.chart.piecewiseconstant.model,org.eclipse.birt.chart.pie
+ cewiseconstant.model.impl,org.eclipse.birt.chart.piecewiseconstant.mo
+ del.util,org.eclipse.birt.chart.piecewiseconstant.render
+Bundle-Vendor: %providerName
+Bundle-ClassPath: .
+Bundle-Version: 1.0.0.201610161408
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.birt.chart.timeview.piecewiseconstant
+ ;singleton:=true
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

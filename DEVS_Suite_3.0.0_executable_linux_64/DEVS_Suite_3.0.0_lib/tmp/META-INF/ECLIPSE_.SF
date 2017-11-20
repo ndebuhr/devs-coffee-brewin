@@ -1,0 +1,2185 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: GljSHrbscRb60ZioeVx7ZSzTC3M=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: nB2cOCGSBye6rXu2Vjm5QhIpqtY=
+
+Name: org/eclipse/birt/chart/model/component/ChartPreferences.class
+SHA1-Digest: A//58o412HrqB9fqeNB/CfYEfkA=
+
+Name: org/eclipse/birt/chart/internal/datafeed/GroupingLookupHelper$Va
+ lueSeriesExprBuilder.class
+SHA1-Digest: Izmhcy46Jq/25FHiwWJtAuoqp9M=
+
+Name: org/eclipse/birt/chart/model/data/GanttDataSet.class
+SHA1-Digest: RcAA7dM4519RpWhuGQcDh3hciaI=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$28.class
+SHA1-Digest: tokprOdcLts+jki/6dnGVE/t0b0=
+
+Name: org/eclipse/birt/chart/render/ActionRendererAdapter.class
+SHA1-Digest: ss6FAHLjNzgvOPMdLghimMmDD7w=
+
+Name: org/eclipse/birt/chart/model/component/Grid.class
+SHA1-Digest: zbhYYC/X+k2v2Tzbru6fWW9iQ2c=
+
+Name: org/eclipse/birt/chart/model/component/impl/DialImpl.class
+SHA1-Digest: OqWFyLxfWdI5YJGpuvofxdO2GG0=
+
+Name: org/eclipse/birt/chart/internal/datafeed/TupleComparator.class
+SHA1-Digest: 69xDyhKmrTQac9VXn5S1/YuziEQ=
+
+Name: org/eclipse/birt/chart/render/AxesRenderer$FittingCurveHelper.cl
+ ass
+SHA1-Digest: dsITheqZFE9kCSMa9QZz0nlWI1M=
+
+Name: org/eclipse/birt/chart/event/Line3DRenderEvent.class
+SHA1-Digest: f6BCwcxcj5E+wDIq9JChYbhY7+g=
+
+Name: schema/doc/org.eclipse.birt.chart.engine.aggregatefunctions.html
+SHA1-Digest: sZ83nWwfh8vc0Z95DfyCOct6t8A=
+
+Name: org/eclipse/birt/chart/style/IStyleProcessor.class
+SHA1-Digest: BE3pSz3ZQHcOrmJV0PAkQARdzf0=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/CursorImpl.class
+SHA1-Digest: yIe5yl5VFz6kDHOuwC0R8h5lAuY=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/DataPointComponentIm
+ pl.class
+SHA1-Digest: 847qIQ1l6gzF61jFLADSHwxnt1w=
+
+Name: org/eclipse/birt/chart/event/WrappedInstruction$WIComparator.cla
+ ss
+SHA1-Digest: Yer4BSvimqi4MSY3QcAqYt6lO/w=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/JavaNumberFormatSpec
+ ifierImpl.class
+SHA1-Digest: c0xX+SUXMAAuXvWVWlKrmCam8Yw=
+
+Name: org/eclipse/birt/chart/computation/Engine3D$1.class
+SHA1-Digest: 3YEBzctC9TX/+Wpgtd3/XACwEJs=
+
+Name: org/eclipse/birt/chart/model/component/Scale.class
+SHA1-Digest: 9QadvrjSP/8a2BoBxZ47kHZsHzc=
+
+Name: org/eclipse/birt/chart/model/data/impl/RuleImpl.class
+SHA1-Digest: N/l169rfVn++e7OTrFGoQ3LaCEQ=
+
+Name: org/eclipse/birt/chart/device/IImageWriterFactory.class
+SHA1-Digest: Mv3ZgGQOxODpYfOOAdXZo2WPGBk=
+
+Name: org/eclipse/birt/chart/model/attribute/MarkerType.class
+SHA1-Digest: ROS826Lz6eD2J6ADYsDE2q6dN3c=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/Angle3DImpl.class
+SHA1-Digest: 6X4uG03mNIOD4rSjjiu57PatsjQ=
+
+Name: org/eclipse/birt/chart/model/type/util/TypeXMLProcessor.class
+SHA1-Digest: jJOXNuL3WtC9qx4QxSqxPIHAp74=
+
+Name: org/eclipse/birt/chart/model/component/util/ComponentResourceImp
+ l.class
+SHA1-Digest: Q/rma8GkGvSzy5BGjKYPjhLbLKg=
+
+Name: org/eclipse/birt/chart/model/component/Axis.class
+SHA1-Digest: Du81QAzpyVJ3PEhEIFqXL+hzgyQ=
+
+Name: org/eclipse/birt/chart/render/AxesRenderer.class
+SHA1-Digest: Yp++NEvJcmXGHypizp4KSWKB9FE=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$9.class
+SHA1-Digest: TJg934x7qSbEJ8clPNPO5bIH6A4=
+
+Name: org/eclipse/birt/chart/model/component/impl/MarkerLineImpl.class
+SHA1-Digest: H/72OmTBIsmNTJoSat+27UC94+U=
+
+Name: org/eclipse/birt/chart/model/attribute/Direction.class
+SHA1-Digest: n96U26RMh2qJThbtA8PN1Q4KhJA=
+
+Name: org/eclipse/birt/chart/model/component/impl/CurveFittingImpl.cla
+ ss
+SHA1-Digest: yt1XxghNtf9FDrROzy4WPDKeCi4=
+
+Name: org/eclipse/birt/chart/computation/IChartComputationFactory.clas
+ s
+SHA1-Digest: 2io5OloEZjw/B1o4IFzw7lsGH2U=
+
+Name: org/eclipse/birt/chart/model/attribute/Angle3D.class
+SHA1-Digest: B5Rs8cNCGHU7VkuL8JhU+dylUcc=
+
+Name: org/eclipse/birt/chart/model/data/impl/DataPackageImpl.class
+SHA1-Digest: uMaO824v39kQi7vjk2bu7OaDS90=
+
+Name: schema/displayservers.exsd
+SHA1-Digest: vYjeBrk459cA3QtvfIMC5IgQdTA=
+
+Name: org/eclipse/birt/chart/model/attribute/CursorType.class
+SHA1-Digest: 6/qXTGwxWQLHNaejikZkDzWSvzg=
+
+Name: org/eclipse/birt/chart/render/DeferredCache.class
+SHA1-Digest: /xqOWahXySTzXzPHeCE7dbhxYkY=
+
+Name: org/eclipse/birt/chart/model/data/util/DataSwitch.class
+SHA1-Digest: eTUkLJ1vee55koVZpzybBdOdRCI=
+
+Name: org/eclipse/birt/chart/model/layout/util/LayoutSwitch.class
+SHA1-Digest: sex6hkAOOXGYFfS2udoSxyyOefE=
+
+Name: org/eclipse/birt/chart/model/attribute/DateFormatDetail.class
+SHA1-Digest: UkXQuQjCYHzmxr0c64xp1o9mi0w=
+
+Name: org/eclipse/birt/chart/model/util/ChartValueUpdater.class
+SHA1-Digest: daqF6oslME0BdaLGguBqUjSOC6c=
+
+Name: org/eclipse/birt/chart/factory/Generator$SimpleContainer.class
+SHA1-Digest: XRPVHv4eWgFMZqFSFuIvAXIOEGs=
+
+Name: org/eclipse/birt/chart/internal/model/Fraction.class
+SHA1-Digest: 2wOfKIBaJAc3eWHV2tcs1PkbnSI=
+
+Name: org/eclipse/birt/chart/util/PatternImageUtil.class
+SHA1-Digest: 3SgGTe8tQ0Q46MT7fARQVCLUl7M=
+
+Name: org/eclipse/birt/chart/event/MarkerInstruction.class
+SHA1-Digest: rIaep/35GvVRisJoDOUvXlV6+fI=
+
+Name: org/eclipse/birt/chart/computation/withoutaxes/PlotWithoutAxes.c
+ lass
+SHA1-Digest: 0cDR572bpsv+jbeLO5EUnzM1LdU=
+
+Name: org/eclipse/birt/chart/model/attribute/LineStyle.class
+SHA1-Digest: KNvY81x5Kw+EaIcdu38v/vHyA2U=
+
+Name: org/eclipse/birt/chart/computation/withaxes/StackedSeriesLookup.
+ class
+SHA1-Digest: gJEcXuOTMZZfC8+Y7OPOQmPmjzc=
+
+Name: org/eclipse/birt/chart/model/component/impl/LabelImpl.class
+SHA1-Digest: EBrjY8Ckg8fq9ZkPHYC6Xdw5AFI=
+
+Name: org/eclipse/birt/chart/event/I3DRenderEvent.class
+SHA1-Digest: 0ITpWjsfOh3SLopsJ8ik0zempgQ=
+
+Name: org/eclipse/birt/chart/model/util/DefaultValueProvider.class
+SHA1-Digest: NfPUC1zyeUFYgPX+rK7GRhh3yi8=
+
+Name: org/eclipse/birt/chart/factory/IGroupedDataRowExpressionEvaluato
+ r.class
+SHA1-Digest: FcsUTL/E92mRJEE4nQLURqw01ME=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/DateFormatSpecifierI
+ mpl.class
+SHA1-Digest: YECOLiSPvj5rOZ8fceWnJczZC5E=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/SeriesValueImpl.clas
+ s
+SHA1-Digest: Lmb5IHddIVEauQA2edB+YAGobMk=
+
+Name: org/eclipse/birt/chart/model/impl/DialChartImpl.class
+SHA1-Digest: 0HAOkuJdnz+i6ZErUxKW02o/+qs=
+
+Name: org/eclipse/birt/chart/model/util/DefaultValueProvider$DefSeries
+ DefinitionPool.class
+SHA1-Digest: ty20o+zGB9lLfUgnAqOKHorjH5c=
+
+Name: org/eclipse/birt/chart/model/ModelFactory.class
+SHA1-Digest: 2gNnBvWeXXly2HDpXG+Y9n1YhMI=
+
+Name: org/eclipse/birt/chart/log/Logger$1.class
+SHA1-Digest: oiZlbrkHb23gIFWtpuBFeNnHF+U=
+
+Name: org/eclipse/birt/chart/model/layout/ClientArea.class
+SHA1-Digest: 8llF0H+wjd0mqaKXm5aqWIsT728=
+
+Name: org/eclipse/birt/chart/event/StructureType.class
+SHA1-Digest: WVQrzQ/fgnkrJAI6kFYfP7o7bBU=
+
+Name: org/eclipse/birt/chart/model/layout/util/LayoutValidator.class
+SHA1-Digest: rbJvERBZ1291GwAB6wBZRt95y9Y=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$11.class
+SHA1-Digest: 124X+aRI2ZTIOB+7jZBkf9euqOk=
+
+Name: org/eclipse/birt/chart/model/component/impl/GridImpl.class
+SHA1-Digest: Fee/yVpGtxZant35gM9SNzrTzSc=
+
+Name: org/eclipse/birt/chart/computation/LegendItemHints.class
+SHA1-Digest: K6I19J85lcaMbqxsZg0OpKPt+7I=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/TooltipValueImpl.cla
+ ss
+SHA1-Digest: 6dn1VlSAJk6vG0whv5QPEhm/l4U=
+
+Name: org/eclipse/birt/chart/computation/withaxes/PlotWithAxes.class
+SHA1-Digest: XL+AHcdLxm5/ggC6NFdoP3T60jI=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$LabelItem.class
+SHA1-Digest: skQ1GCyfebvIRNZJBzn+dJNlI1s=
+
+Name: org/eclipse/birt/chart/script/ChartScriptContext.class
+SHA1-Digest: fPAPVEIMFDQ/QCnxlMjvV1Nw+Bg=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$StaggeredH
+ elper$1.class
+SHA1-Digest: Vgzp8Kt2TYfmjZX9G/yIyaqKNaY=
+
+Name: org/eclipse/birt/chart/internal/datafeed/ResultSetWrapper.class
+SHA1-Digest: qc565wgDkqjqkLUrJ3dwO0fcFOA=
+
+Name: org/eclipse/birt/chart/model/type/ScatterSeries.class
+SHA1-Digest: 6DkUKe1lzMXLX5nOEvr1MedQiRE=
+
+Name: org/eclipse/birt/chart/computation/withaxes/PlotWith3DAxes$VAxis
+ LabelCanvasLocationProvider.class
+SHA1-Digest: yvr95NjipWciPjsjbOKtEJv5uCw=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$LabelVisib
+ leHelper$CommonRule$1.class
+SHA1-Digest: FYFGEsgkAroykG1JsfO5uc67yd4=
+
+Name: org/eclipse/birt/chart/model/layout/impl/LayoutFactoryImpl.class
+SHA1-Digest: 7YZyH+MCr6uLWMgu64kxMoK+qdA=
+
+Name: org/eclipse/birt/chart/internal/datafeed/ResultSetDataSet.class
+SHA1-Digest: Mesup4dWsk2bPYQLiIwYJZmakKU=
+
+Name: org/eclipse/birt/chart/computation/withaxes/IAxisAdjuster.class
+SHA1-Digest: X6NtOpGKjS/dFb7IxdBYsPr5DDI=
+
+Name: org/eclipse/birt/chart/computation/withaxes/VerticalAxesAdjuster
+ .class
+SHA1-Digest: xT6S9riySirYarMHUbbi8nALFt8=
+
+Name: org/eclipse/birt/chart/util/LiteralHelper.class
+SHA1-Digest: 49AIWV9kg2dX/UKvLL+ylNAHrag=
+
+Name: org/eclipse/birt/chart/computation/ChartComputationFactory.class
+SHA1-Digest: YTWVFWAtvJjijFfb6kOS5oU43Pg=
+
+Name: org/eclipse/birt/chart/computation/withaxes/PlotWith2DAxes.class
+SHA1-Digest: Qz35vkzbD/RNWokLt7t8z3CO3ao=
+
+Name: org/eclipse/birt/chart/model/data/impl/GanttDataSetImpl.class
+SHA1-Digest: dDFKeVkcpUyCmj0YXWqgMDO2vjw=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$22.class
+SHA1-Digest: UUZqyE3IDQydC5x3RjUE8/xUm7Q=
+
+Name: org/eclipse/birt/chart/model/data/impl/MultipleActionsImpl.class
+SHA1-Digest: 8DLAGjyXPmq6Ur3Lcrw6SIjd1yI=
+
+Name: org/eclipse/birt/chart/model/ChartWithoutAxes.class
+SHA1-Digest: 6I7EQ1LvyxMQPSjkqwqY/isJyi4=
+
+Name: org/eclipse/birt/chart/model/data/StockDataSet.class
+SHA1-Digest: q04zMuEcv1ZasASwyp8JrVCSgm8=
+
+Name: schema/charttypes.exsd
+SHA1-Digest: KKL6aTEm4EP3jBIll/6Bb6cdXvo=
+
+Name: org/eclipse/birt/chart/model/component/util/ComponentSwitch.clas
+ s
+SHA1-Digest: SgDpPvKM4mwzb/mHPxipU03DJmU=
+
+Name: org/eclipse/birt/chart/model/component/ComponentPackage$Literals
+ .class
+SHA1-Digest: OSJaSePvgeOgNuQe8Ue5oav3QO8=
+
+Name: org/eclipse/birt/chart/model/impl/SerializerImpl$1.class
+SHA1-Digest: PzA1zCCz0/l17KfYtLMho/qEbBs=
+
+Name: org/eclipse/birt/chart/computation/SeriesNameFormat.class
+SHA1-Digest: HxTIeeKcRtwcB7UUlsUvmRKhlHI=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/EStringToStringMapEn
+ tryImpl.class
+SHA1-Digest: IJKtAgnce3Wohp5DihQJNSNi0eU=
+
+Name: org/eclipse/birt/chart/model/data/impl/SampleDataImpl.class
+SHA1-Digest: 3EOsoREQFzc2LmT6tivzjAma9S4=
+
+Name: org/eclipse/birt/chart/util/PatternImageUtil$ByteColorModel$2.cl
+ ass
+SHA1-Digest: VJvKtedVrdRIy8Ii6r0As30Cotg=
+
+Name: org/eclipse/birt/chart/render/ISeriesRenderingHints.class
+SHA1-Digest: xsRJerAYIitfhXf531WXJFY6eN4=
+
+Name: org/eclipse/birt/chart/computation/UserDataSetHints.class
+SHA1-Digest: gfdlseP6i2CNWtCq4LT3hkLXUII=
+
+Name: org/eclipse/birt/chart/integrate/SimpleActionUtil.class
+SHA1-Digest: 1IgZHqT2o6ZAphO/kQMpr9w/r/Q=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AllAxes.class
+SHA1-Digest: kOs4SGCdKWP0Z9+guy2RlHucfZQ=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/Location3DImpl.class
+SHA1-Digest: O5ZUpZX24ZorcumYPRYK6WOj/l0=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/AxisOriginImpl.class
+SHA1-Digest: VrHNzpj1EbYssTG6RKwr+6iD4f0=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$33.class
+SHA1-Digest: bSULPRK33JVxvc/mZfrTza2xxvA=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$3.class
+SHA1-Digest: g6tIIrTyzq1Y0WdJZXZNmFEwp4g=
+
+Name: org/eclipse/birt/chart/util/TriggerSupportMatrix$TriggerCombinat
+ ion.class
+SHA1-Digest: Adv5kKDcurGeHu0G7eVkZYYnFUg=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/PatternImageImpl.cla
+ ss
+SHA1-Digest: fAuZrJspwh50uErlKCapmvdxz1g=
+
+Name: org/eclipse/birt/chart/model/data/impl/BigNumberDataElementImpl.
+ class
+SHA1-Digest: oG2oeYL65TO3iTdHUR7A+MtHEp8=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$16.class
+SHA1-Digest: TzCNoBd93GYBS5bbX3npdyMDpDc=
+
+Name: org/eclipse/birt/chart/model/util/ModelXMLProcessor.class
+SHA1-Digest: mP+Ktmv+rzaP7LZCCwkg2dj3SzM=
+
+Name: org/eclipse/birt/chart/computation/Rectangle.class
+SHA1-Digest: v5QRy9cTSLVK/liMfa5A6rYaOJ0=
+
+Name: org/eclipse/birt/chart/model/DialChart.class
+SHA1-Digest: /zhaSCuE1IDRp4SegOYeCMcE8DQ=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/BoundsImpl.class
+SHA1-Digest: mz/tH+FVzWVa5rfc95e7VIJ0oxk=
+
+Name: org/eclipse/birt/chart/model/attribute/PatternImage.class
+SHA1-Digest: TYEfSw3cE/K16HkfRX5r4f0eLEQ=
+
+Name: org/eclipse/birt/chart/model/data/OrthogonalSampleData.class
+SHA1-Digest: dR2dCSV9DJsztWWaxqO1+GgIleQ=
+
+Name: org/eclipse/birt/chart/model/layout/impl/LayoutPackageImpl.class
+SHA1-Digest: qVCG2A+y0xx7LwtnRl5KmmSlA+M=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$CategoryContent
+ Provider.class
+SHA1-Digest: JgYRxBwLM4qEMwndYrAcHgwfE6k=
+
+Name: org/eclipse/birt/chart/model/component/Dial.class
+SHA1-Digest: kURxyUqMtKDcgWfhMkA8Nv25k88=
+
+Name: org/eclipse/birt/chart/model/layout/TitleBlock.class
+SHA1-Digest: Hz5DuyPQV+U1DvMxlGc/LWB5qBM=
+
+Name: org/eclipse/birt/chart/internal/datafeed/DataProcessor$Aggregati
+ onExpressionHelper.class
+SHA1-Digest: 6zHbEFqUTb5J8OODBSb0jtch6Io=
+
+Name: org/eclipse/birt/chart/model/layout/impl/PlotImpl.class
+SHA1-Digest: 7MEB0dvBDu6hWBxVhmKG5jKhh8U=
+
+Name: org/eclipse/birt/chart/model/type/PieSeries.class
+SHA1-Digest: G7O9IuFkREG3t+dCWybiIslUPdY=
+
+Name: org/eclipse/birt/chart/model/data/impl/SeriesDefinitionImpl.clas
+ s
+SHA1-Digest: oOi/liHDcZSOYUo0c7WkokPDtdU=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$27.class
+SHA1-Digest: PPXjDdJ8O+FStb6JPHPa0wiJHZY=
+
+Name: org/eclipse/birt/chart/model/type/BarSeries.class
+SHA1-Digest: gRTPHZyiJ/iJku5OxpzJO1U+ZIY=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder.class
+SHA1-Digest: BcWUugllDFLe66MG3SXAAVOXB0s=
+
+Name: org/eclipse/birt/chart/render/IAxesDecorator.class
+SHA1-Digest: oR+MnC+NPTqYl7J0gI4xcbYZrak=
+
+Name: org/eclipse/birt/chart/model/type/impl/TypeFactoryImpl.class
+SHA1-Digest: sy95GMRVKqSXhNSsVEQW9ywL5ro=
+
+Name: org/eclipse/birt/chart/model/layout/impl/LabelBlockImpl.class
+SHA1-Digest: bAQmIpVY+pWaOxA10+H/dYq3g3g=
+
+Name: org/eclipse/birt/chart/model/attribute/AngleType.class
+SHA1-Digest: nqN7AtrVaNFfZ4MKygBJ7+ZQu8w=
+
+Name: org/eclipse/birt/chart/device/IDisplayServer.class
+SHA1-Digest: w+dFLxuTrhFONtX092DV2gx8Wls=
+
+Name: org/eclipse/birt/chart/factory/RunTimeContext$StateKey.class
+SHA1-Digest: pr5Ni+wv+fHJ4ftqWpvs2VmrPMw=
+
+Name: org/eclipse/birt/chart/computation/withaxes/PlotWith3DAxes$PWA3D
+ ComputeContext.class
+SHA1-Digest: shXOc5GeO4b0VvsTr26DPM/oU74=
+
+Name: org/eclipse/birt/chart/event/PrimitiveRenderEvent.class
+SHA1-Digest: kkYryk5JM1K7mMXb+/m31WmBfJo=
+
+Name: org/eclipse/birt/chart/computation/LabelLimiter$Option.class
+SHA1-Digest: 8B2qnacpxF+nxfB1n28u7+L9R0U=
+
+Name: org/eclipse/birt/chart/datafeed/IResultSetDataSet.class
+SHA1-Digest: j9guA1c6uQ5ukBf8BGSeVP3WF1c=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$ValueContentPro
+ vider.class
+SHA1-Digest: L1VFa/EFfOPkZhhnrchIvIuscxU=
+
+Name: org/eclipse/birt/chart/model/attribute/DateFormatType.class
+SHA1-Digest: pdHhqqxAhFIi5aBTnJe+oU/+BWw=
+
+Name: schema/devicerenderers.exsd
+SHA1-Digest: VcDKtdZ3TfJZfeBdX6nTl1owvrg=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/LineAttributesImpl.c
+ lass
+SHA1-Digest: gFZ/e1CXfoxIr/nJ0vO/BbdGgus=
+
+Name: org/eclipse/birt/chart/model/attribute/SeriesValue.class
+SHA1-Digest: i63Zi5TN68W5ufXaaCh7hCknxYk=
+
+Name: org/eclipse/birt/chart/render/CurveRenderer.class
+SHA1-Digest: XNHEDK+7MawUPY7enjT/ldtVAbU=
+
+Name: org/eclipse/birt/chart/model/attribute/JavaNumberFormatSpecifier
+ .class
+SHA1-Digest: /h+xkTBYqCUfEL9iocKw+AExaEQ=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$8.class
+SHA1-Digest: MQ6iT4C5r4riLvgadH0sGOHY7wI=
+
+Name: org/eclipse/birt/chart/computation/withaxes/SharedScaleContext.c
+ lass
+SHA1-Digest: cEoXBCdsJnHExD5Y6405tNfkjYM=
+
+Name: org/eclipse/birt/chart/model/attribute/Location3D.class
+SHA1-Digest: UHWUqHbmGsecRHWGAmod5LnBhUI=
+
+Name: model/org.eclipse.birt.chart.model.attribute.ecore
+SHA1-Digest: GP5WYBEqf+9Kq57/powpO+84tqc=
+
+Name: org/eclipse/birt/chart/model/attribute/util/AttributeAdapterFact
+ ory.class
+SHA1-Digest: 6plT6xtNiX7xyC8r07Cc3dJPf8E=
+
+Name: org/eclipse/birt/chart/model/layout/impl/TitleBlockImpl.class
+SHA1-Digest: kTTXZsWbjEHiYkaLdGKcS3pVpdc=
+
+Name: org/eclipse/birt/chart/device/TextRendererAdapter.class
+SHA1-Digest: k6ZfHdQkxkKw5U9NOzeiB19Cjgc=
+
+Name: org/eclipse/birt/chart/model/util/ModelValidator.class
+SHA1-Digest: RlMGCSB4ERN6CDU/V/VVDEmsSz0=
+
+Name: org/eclipse/birt/chart/util/PluginSettings$1.class
+SHA1-Digest: yCwkYAqrKhBUZ/74ipX99tV5NGg=
+
+Name: org/eclipse/birt/chart/internal/model/FittingCalculator.class
+SHA1-Digest: ho+txXMxj0rUcDAxP6NkSlioIfo=
+
+Name: org/eclipse/birt/chart/model/util/ChartDefaultValueUtil.class
+SHA1-Digest: NrhKmoVlbWJMQzkv/8GZ4CQHKKY=
+
+Name: org/eclipse/birt/chart/render/AxesRenderHelper$ComputationContex
+ t.class
+SHA1-Digest: zuL8l6VVOKgCXU3QOnovUBQkppU=
+
+Name: org/eclipse/birt/chart/model/attribute/Orientation.class
+SHA1-Digest: hPM/6jRN7XHJDFy6LIAh+6XuipQ=
+
+Name: org/eclipse/birt/chart/model/data/util/DataXMLProcessor.class
+SHA1-Digest: l/mn7Qf4G0tHYcGinzTJ1qVgleg=
+
+Name: org/eclipse/birt/chart/model/layout/util/LayoutXMLProcessor.clas
+ s
+SHA1-Digest: TdrIGh1/vmqniaN/ftmfj/G6PM8=
+
+Name: org/eclipse/birt/chart/script/IScriptClassLoader.class
+SHA1-Digest: XO9ExwHb9qP+3Ot/0PTo/WYvvmg=
+
+Name: org/eclipse/birt/chart/model/data/impl/NumberDataSetImpl.class
+SHA1-Digest: N6LG9i8kurUIMSmwwR569ugHSlE=
+
+Name: org/eclipse/birt/chart/computation/Object3D.class
+SHA1-Digest: 6o67/ftnSnpI9tP8MlBm1OzOB8o=
+
+Name: org/eclipse/birt/chart/model/util/ChartExtensionValueUpdater.cla
+ ss
+SHA1-Digest: k+YTSttkFCc6vezQnM4zQxxX32U=
+
+Name: org/eclipse/birt/chart/model/IChartObject.class
+SHA1-Digest: M63dOZU0NK2BiNzprbiY3DLXDNA=
+
+Name: org/eclipse/birt/chart/computation/Engine3D.class
+SHA1-Digest: ccsFOflj5Kxnsz7j4pWG2DgerGk=
+
+Name: schema/doc/org.eclipse.birt.chart.engine.devicerenderers.html
+SHA1-Digest: RThCcvU8GP8TA9hKrX3D9VIBsI4=
+
+Name: org/eclipse/birt/chart/model/component/ComponentPackage.class
+SHA1-Digest: Y0Zjz9vTGE4a2Ao7Gy5mmgavHMM=
+
+Name: org/eclipse/birt/chart/model/data/DataFactory.class
+SHA1-Digest: DW1oFIAnmyfK1VJJe9EfmeuAXy8=
+
+Name: org/eclipse/birt/chart/device/FontUtil.class
+SHA1-Digest: bpPomk8XAFzoLFvRd7+gWMJKTiI=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$ContentProvider
+ .class
+SHA1-Digest: UUJdnQbEyU+BAnHY+qHX1U1Zif4=
+
+Name: org/eclipse/birt/chart/model/type/impl/AreaSeriesImpl.class
+SHA1-Digest: jFDp4EW1+ZgFftlWWeo6N0N8CiM=
+
+Name: org/eclipse/birt/chart/model/type/impl/TypePackageImpl.class
+SHA1-Digest: De1/Ozp8Hh29IU/nvgnrR9h1paE=
+
+Name: org/eclipse/birt/chart/model/component/MarkerLine.class
+SHA1-Digest: M2sdhl7YRh3POw3IfgpGTdvPA/k=
+
+Name: org/eclipse/birt/chart/util/FillUtil.class
+SHA1-Digest: nPhC8tA67b6ZJGEBBQ4hnGnjGaQ=
+
+Name: org/eclipse/birt/chart/computation/Vector.class
+SHA1-Digest: lJKjF5mo+6K9yTRas3fWEayCNNE=
+
+Name: org/eclipse/birt/chart/computation/withaxes/SeriesRenderingHints
+ .class
+SHA1-Digest: HixNXyffDne+oaM2wbPrpGxxkyY=
+
+Name: org/eclipse/birt/chart/computation/withaxes/IntersectionValue.cl
+ ass
+SHA1-Digest: XdSIQBFT/C4SyNW5VIuxm8bfkwU=
+
+Name: org/eclipse/birt/chart/device/ImageWriterFactory.class
+SHA1-Digest: hKSWZQs1SWseq/fRe4yEgq3fR0Y=
+
+Name: org/eclipse/birt/chart/event/Polygon3DRenderEvent.class
+SHA1-Digest: 9mjC0bYg/P3KFUVCTIZnxjVK9ck=
+
+Name: org/eclipse/birt/chart/util/NumberUtil.class
+SHA1-Digest: +FPZEpMwE+cubezMbtaSG+tCK3k=
+
+Name: org/eclipse/birt/chart/render/EmptyWithoutAxes.class
+SHA1-Digest: OKfdztl15aii+9xRtHwK1dLdVvY=
+
+Name: org/eclipse/birt/chart/datafeed/NumberDataPointEntry.class
+SHA1-Digest: Z15YY7kHO6hTa5KsEc/C3r5FjhI=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$10.class
+SHA1-Digest: z4ixBxB0Zcfhc1+FzJanWEXnEwY=
+
+Name: org/eclipse/birt/chart/model/attribute/TextAlignment.class
+SHA1-Digest: LBAJ/iOg9Ww1Z9ZP2lXPWjJh6rU=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/CallBackValueImpl.cl
+ ass
+SHA1-Digest: ywuBlaD4qO6Xki0p3Ikczg0NE1c=
+
+Name: org/eclipse/birt/chart/computation/PlotComputation.class
+SHA1-Digest: U/5gCNX+MZUHxZ7C60R52EEcYCw=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$LabelVisib
+ leHelper$CommonRule.class
+SHA1-Digest: SEB1TAi/QvwUU2YgcZu0EknojZ4=
+
+Name: org/eclipse/birt/chart/datafeed/IDataSetProcessor.class
+SHA1-Digest: ec0g7+5E8cFDCWEJ72YBEcXAy+I=
+
+Name: org/eclipse/birt/chart/model/component/impl/ComponentFactoryImpl
+ .class
+SHA1-Digest: zyCdRL+QOwClcpjw3WSAYvbf3rI=
+
+Name: org/eclipse/birt/chart/factory/IMessageLookup.class
+SHA1-Digest: Doukt1mkHVR1D1xosl7XFtF6f9c=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AxisTickCoordinates.
+ class
+SHA1-Digest: vEJFdgnkFlXGcaAjthEYxY1yF1U=
+
+Name: org/eclipse/birt/chart/integrate/SimpleActionEvaluator.class
+SHA1-Digest: M1wWe8qePJs5AvzsqatrUlYgcRo=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/LocationImpl.class
+SHA1-Digest: cPmBUdX9/PrguW1Dw3gJW2MLj88=
+
+Name: org/eclipse/birt/chart/internal/datafeed/VSResultSetDataSet.clas
+ s
+SHA1-Digest: HUJpSWdHYfXYfF4DWurOlBdgWBI=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/FractionNumberFormat
+ SpecifierImpl.class
+SHA1-Digest: xP04NBynxk9RhVKiSR3s6e7EcXI=
+
+Name: org/eclipse/birt/chart/computation/withaxes/ValueAxesHelper.clas
+ s
+SHA1-Digest: 1J7/j/JEIV8eEvpeloFnTiODheY=
+
+Name: org/eclipse/birt/chart/render/IActionRenderer.class
+SHA1-Digest: bVHI5Ih7ya2xuzI12pTmm3fSEdU=
+
+Name: org/eclipse/birt/chart/computation/Polygon.class
+SHA1-Digest: wxOy9GoTov/HVzF7GpSPNa2BiW0=
+
+Name: org/eclipse/birt/chart/model/type/AreaSeries.class
+SHA1-Digest: uInYPbq1R8xd0QmWkUXb8wmnoiI=
+
+Name: org/eclipse/birt/chart/model/data/TextDataSet.class
+SHA1-Digest: /aal8CJ1HyhX2/F2oWPLmMtqlIA=
+
+Name: org/eclipse/birt/chart/model/attribute/UnitsOfMeasurement.class
+SHA1-Digest: qfMGuvKu8PxNB7yczZdm8mAMTzA=
+
+Name: org/eclipse/birt/chart/model/Chart.class
+SHA1-Digest: jFf/YhgsFIIzWBBzh4FQrKt7dpk=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$21.class
+SHA1-Digest: N1iAnlpg7m7WOPj7/mkOFwRaA/8=
+
+Name: org/eclipse/birt/chart/script/IExternalContext.class
+SHA1-Digest: ZPDIAL9W+vHNyQAM1O5IRK6uMp8=
+
+Name: org/eclipse/birt/chart/model/data/Trigger.class
+SHA1-Digest: QXXyQLJPeoz+slZnsHMETihEU6k=
+
+Name: org/eclipse/birt/chart/log/Logger.class
+SHA1-Digest: bURkhG6ajyrHkXuNpnRfXGfPTlc=
+
+Name: org/eclipse/birt/chart/model/data/BaseSampleData.class
+SHA1-Digest: PG+E5MvNPnG9FxTJEjtGXHwtFO4=
+
+Name: org/eclipse/birt/chart/model/type/TypePackage.class
+SHA1-Digest: 0F9Ph7kS8kPPUCYP0YRjNfYcT/4=
+
+Name: org/eclipse/birt/chart/model/ModelPackage$Literals.class
+SHA1-Digest: YYWFhxIbuflOndgC3nrYvh36HOs=
+
+Name: org/eclipse/birt/chart/computation/withaxes/PlotWith3DAxes$AxisL
+ abelCanvasLocationProvider.class
+SHA1-Digest: xhNURsWgRQ9utzimJSycCegfsAM=
+
+Name: org/eclipse/birt/chart/model/layout/LayoutFactory.class
+SHA1-Digest: 6InbiR4UOD5tzF1MMusMHGNqWD0=
+
+Name: org/eclipse/birt/chart/model/component/util/ComponentXMLProcesso
+ r.class
+SHA1-Digest: 6O560HcQGsWnfVQb5W3sIhFNLAw=
+
+Name: org/eclipse/birt/chart/model/attribute/AttributePackage.class
+SHA1-Digest: slZD/w5AMOOlo2KcuHamcsusBZY=
+
+Name: org/eclipse/birt/chart/util/PatternImageUtil$ByteColorModel$1.cl
+ ass
+SHA1-Digest: Y70cgawfAmkTCsdWKzcQJco8NUU=
+
+Name: org/eclipse/birt/chart/model/type/impl/StockSeriesImpl.class
+SHA1-Digest: Fqc7Gu3M3sLazqUc4UOCvFReUlg=
+
+Name: org/eclipse/birt/chart/model/data/TextDataElement.class
+SHA1-Digest: nJ1S9H1ZV7PG4nZ6RozFJJHAtGU=
+
+Name: org/eclipse/birt/chart/internal/model/ContinuedFraction.class
+SHA1-Digest: uExByfQjlbbrabMazicm0YxTTc8=
+
+Name: org/eclipse/birt/chart/event/RectangleRenderEvent.class
+SHA1-Digest: dh9OKO9S62u01YLGCFCCS7Hl0NU=
+
+Name: org/eclipse/birt/chart/render/InteractiveRenderer.class
+SHA1-Digest: EGaHx5Klnr0NOZXI7EXwQ9m0Z0c=
+
+Name: org/eclipse/birt/chart/factory/IResourceFinder.class
+SHA1-Digest: 8F8JEdzEK7dzC5ZbdKBniwJgYSE=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$32.class
+SHA1-Digest: ALMYyC8mApKL+/cOcaRvOG3HMe8=
+
+Name: org/eclipse/birt/chart/model/IChartModelHelper.class
+SHA1-Digest: 5ciTDzhOvA6HB1e4ozWcdYyOwEc=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$2.class
+SHA1-Digest: UYteqvWxWZ9HhfFy9oGaBEDPqq4=
+
+Name: org/eclipse/birt/chart/render/AxesRenderHelper$TextAxisTypeCompu
+ tation.class
+SHA1-Digest: CDDZDVKeZQvUax24B1LrnwQ2BRQ=
+
+Name: org/eclipse/birt/chart/factory/IActionEvaluator.class
+SHA1-Digest: Ov5XUi4wzQg6MWXNY2nYpOJRehE=
+
+Name: org/eclipse/birt/chart/model/util/ChartDynamicExtension.class
+SHA1-Digest: PpKWuXVLQW+1Su9jtqwXaqESOQc=
+
+Name: org/eclipse/birt/chart/model/component/impl/ComponentPackageImpl
+ .class
+SHA1-Digest: 4XLdw9nNsNyWLH+703Lcb09NtnE=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$LabelVisib
+ leHelper$3.class
+SHA1-Digest: U+Xk7r8zNCOWsPRbAa+8IVsIgP4=
+
+Name: org/eclipse/birt/chart/internal/prefs/DefaultsManager$2.class
+SHA1-Digest: 9zMEy4/UIcXQfNMbRQnYYMoyxPI=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$15.class
+SHA1-Digest: xicJyoy5PABM2M3F12qYnlPFPjY=
+
+Name: org/eclipse/birt/chart/computation/BIRTChartComputation.class
+SHA1-Digest: FXpehNILuyfaLyCBej1urXFLoAE=
+
+Name: about.html
+SHA1-Digest: sp+MJJREp1IOiZdau8mgdyqxZuo=
+
+Name: org/eclipse/birt/chart/model/attribute/AxisOrigin.class
+SHA1-Digest: 1kdtbVZrV+BZD1bipEm4wTNVQVY=
+
+Name: org/eclipse/birt/chart/model/attribute/StyleMap.class
+SHA1-Digest: oTZSyupaTwowY4UpAhOxo8ptg2A=
+
+Name: org/eclipse/birt/chart/internal/model/FractionApproximator.class
+SHA1-Digest: TzdbVjkrrNWHXT0bx+KiwAla7R4=
+
+Name: org/eclipse/birt/chart/model/data/NumberDataElement.class
+SHA1-Digest: tBQaUDu2qmCB1hDQ9rYy5qlyrZ0=
+
+Name: org/eclipse/birt/chart/model/attribute/CallBackValue.class
+SHA1-Digest: UnqAokEsd4HdRHxlz8drmmF8deU=
+
+Name: org/eclipse/birt/chart/model/attribute/util/AttributeResourceFac
+ toryImpl.class
+SHA1-Digest: z+8Ux5lKfnqoqpbeQmDwXGSEEq8=
+
+Name: org/eclipse/birt/chart/model/attribute/Insets.class
+SHA1-Digest: 9B84EqoH7pt9YB4QmQDUB4Xreso=
+
+Name: org/eclipse/birt/chart/model/layout/impl/LayoutPackageImpl$1.cla
+ ss
+SHA1-Digest: HHK5Lqc8UwLcXKQ3+9fjlIh6DQU=
+
+Name: org/eclipse/birt/chart/util/ChartUtil.class
+SHA1-Digest: Uq5fmdyi/1uWNu8c/zBTfJ+uCZQ=
+
+Name: org/eclipse/birt/chart/model/data/DataElement.class
+SHA1-Digest: c1epDHrQqbeuQCNao43lSOPDNT0=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$InvertibleItera
+ tor.class
+SHA1-Digest: SNK7N/WN4OQpzNETdN6iltdOwW4=
+
+Name: org/eclipse/birt/chart/internal/datafeed/GroupKey.class
+SHA1-Digest: xfMi7DoPubQC914AFLYDoKxwqss=
+
+Name: org/eclipse/birt/chart/event/Arc3DRenderEvent.class
+SHA1-Digest: lr5nbn8hsioAZixWy8MvfWs1ThM=
+
+Name: org/eclipse/birt/chart/plugin/ChartEnginePlugin.class
+SHA1-Digest: GbX6P2pl66skY5J/M32kppysung=
+
+Name: org/eclipse/birt/chart/util/PatternImageUtil$ByteColorModel.clas
+ s
+SHA1-Digest: uamNrE/5paKWgmH7DeTEz3NnFD8=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$26.class
+SHA1-Digest: kUZzV+1AgvsunMmbgroAZbZaOZ8=
+
+Name: org/eclipse/birt/chart/model/data/impl/NullDataSetImpl.class
+SHA1-Digest: jDc7wzeHBKg0GfXSqMnMwmWY7AY=
+
+Name: org/eclipse/birt/chart/internal/datafeed/GroupingUtil.class
+SHA1-Digest: YX6i1Zek+dp5nXL6LkenLKTma5Y=
+
+Name: org/eclipse/birt/chart/model/attribute/Size.class
+SHA1-Digest: l7d9ATR31kayzAclRdhrl6So5XI=
+
+Name: org/eclipse/birt/chart/model/attribute/Fill.class
+SHA1-Digest: gXcXapcLDnAbwlQ0LMRon73oQFo=
+
+Name: org/eclipse/birt/chart/event/InteractionEvent.class
+SHA1-Digest: gwQX+zNFTa8PyBRwiErxU2/d0kk=
+
+Name: org/eclipse/birt/chart/model/layout/LayoutPackage$Literals.class
+SHA1-Digest: iMtm2K54500IlinrxOnCaxr18C4=
+
+Name: org/eclipse/birt/chart/model/component/impl/SeriesImpl.class
+SHA1-Digest: vVu6nbo8dt+siitG2dWHvSqZ4Ys=
+
+Name: org/eclipse/birt/chart/event/ArcRenderEvent.class
+SHA1-Digest: GUwHqYU+iNC5uTaZfP0okG+jWmc=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/NumberFormatSpecifie
+ rImpl.class
+SHA1-Digest: 9sPacnpYNbBjYFa2QRMRkVBIwGY=
+
+Name: org/eclipse/birt/chart/model/data/Query.class
+SHA1-Digest: UD9HSs6wkMtOoL1CsAn52lR4GAU=
+
+Name: org/eclipse/birt/chart/event/Image3DRenderEvent.class
+SHA1-Digest: FQWj1e9UXC2dVvEi9qUmg94urh4=
+
+Name: org/eclipse/birt/chart/render/AxesRenderer$FittingCurveHelper$1.
+ class
+SHA1-Digest: hXecHzvN+Chkn4ZXpjmdc1BPhQs=
+
+Name: org/eclipse/birt/chart/internal/computations/Matrix.class
+SHA1-Digest: 5rcViSlrXEDyLUXALjKVBngSuDc=
+
+Name: org/eclipse/birt/chart/model/type/util/TypeAdapterFactory.class
+SHA1-Digest: 3Y44R2E1NIkHy3mJ1420mJi2aEY=
+
+Name: model/org.eclipse.birt.chart.model.layout.ecore
+SHA1-Digest: FkswSwikLX+LIKaH5z6oR1LI9Ic=
+
+Name: org/eclipse/birt/chart/computation/withaxes/ScaleContext.class
+SHA1-Digest: TAdRgrngo8r04/GMpFnDH1ht5Ik=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$7.class
+SHA1-Digest: OJEycHAF/vA/+aYexJ2pJ3FATJQ=
+
+Name: org/eclipse/birt/chart/model/type/DifferenceSeries.class
+SHA1-Digest: Z6ZC52MWBAf+7YEmFKV/xiF13u8=
+
+Name: org/eclipse/birt/chart/factory/ActionEvaluatorAdapter.class
+SHA1-Digest: uF+E/14KA5EQNwvShHoqWZkJ3+I=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/TextImpl.class
+SHA1-Digest: YeFIYAw/ULVeOXNzw+WmQSFsCDs=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$AxisLabelI
+ nfo.class
+SHA1-Digest: 6F2thB+0XExYF3/bR3cNgdaMZIY=
+
+Name: org/eclipse/birt/chart/model/component/impl/NeedleImpl.class
+SHA1-Digest: LfEmiH0Hy0jV3Y9vthMAWNScCGY=
+
+Name: org/eclipse/birt/chart/event/WrappedInstruction.class
+SHA1-Digest: bmu+y670XTbZP8eEtP9Ks/XG0m0=
+
+Name: org/eclipse/birt/chart/event/EventObjectCache.class
+SHA1-Digest: XSKNovE1Pv9Lnl+bHGZhvOUry6U=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$ContentPlacer.c
+ lass
+SHA1-Digest: aFqny7Ng88Hi6Sc+O6aJ98J1pxc=
+
+Name: org/eclipse/birt/chart/device/ITextRenderer.class
+SHA1-Digest: az9bNkDAiAPaWXi7Ek9pCt420MI=
+
+Name: org/eclipse/birt/chart/device/DeviceAdapter.class
+SHA1-Digest: wNYoWH0nsMIQQ7z5sCQUI7GdMLY=
+
+Name: org/eclipse/birt/chart/computation/ValueFormatter.class
+SHA1-Digest: r1wGyKYigtIYc3Xua8YiA17h/zg=
+
+Name: org/eclipse/birt/chart/computation/Methods.class
+SHA1-Digest: Jh1Bq5n3liW7v+A4lhChiIay5L0=
+
+Name: org/eclipse/birt/chart/model/attribute/TriggerFlow.class
+SHA1-Digest: UjnQ1+EYiJIzSjmW7hUuIIXODsk=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/ImageImpl.class
+SHA1-Digest: 6iqC0NJncZriagg8Yhfb3gro9LA=
+
+Name: org/eclipse/birt/chart/model/attribute/Text.class
+SHA1-Digest: lrjDmZv2550NVTCk4YDLf05AMic=
+
+Name: org/eclipse/birt/chart/device/IScriptMenuHelper.class
+SHA1-Digest: LggaFRoDkOcknh1+zFtDumaaNlQ=
+
+Name: org/eclipse/birt/chart/model/data/impl/QueryImpl.class
+SHA1-Digest: /LKdNLaux2HVUPSnHm1h79Ey9PU=
+
+Name: org/eclipse/birt/chart/model/attribute/LeaderLineStyle.class
+SHA1-Digest: REaia5EP1UsV9OsSoqqXfFnvDiU=
+
+Name: org/eclipse/birt/chart/factory/GeneratedChartState.class
+SHA1-Digest: /N1IXwNy9YL7PRlky/dhOxylWJ8=
+
+Name: org/eclipse/birt/chart/computation/BoundingBox.class
+SHA1-Digest: w66m3RqBBzK9zmhDKTw4AgivCMg=
+
+Name: schema/aggregatefunctions.exsd
+SHA1-Digest: 3ZT/IAGpZIxba1pxrJnwUxaFniY=
+
+Name: org/eclipse/birt/chart/model/impl/ChartWithAxesImpl.class
+SHA1-Digest: f0QebhhJf/FF4+3h89FS5rS9fSo=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/StringFormatSpecifie
+ rImpl.class
+SHA1-Digest: 4H4QU+ba9eG7KGWlERax6hTMQ7U=
+
+Name: org/eclipse/birt/chart/model/data/DataPackage$Literals.class
+SHA1-Digest: 8bBTTVg5MF8iB35+SE6e8YJKU0U=
+
+Name: org/eclipse/birt/chart/factory/IDataRowExpressionEvaluator.class
+SHA1-Digest: kLHK8T+lEG3htRYgX/y+PWaLyZM=
+
+Name: org/eclipse/birt/chart/model/data/impl/ActionImpl.class
+SHA1-Digest: OgJk8ozfDKqtonoHA+NjCy1bcwI=
+
+Name: org/eclipse/birt/chart/render/AxesRenderHelper$DatetimeAxisTypeC
+ omputation.class
+SHA1-Digest: RZIQWKCuyZ/kNuWrNtUsjy7TO0E=
+
+Name: org/eclipse/birt/chart/internal/layout/LayoutManager.class
+SHA1-Digest: +6Fye+Gs4caxOal9cMeDMtPnu8Y=
+
+Name: org/eclipse/birt/chart/util/PluginSettings$DefaultAggregations.c
+ lass
+SHA1-Digest: v7+JOHc95N0KJcUqDF5qOpx0HSc=
+
+Name: org/eclipse/birt/chart/model/data/SampleData.class
+SHA1-Digest: OYvKQslXD+sis/X1xTZd6vTaX7Y=
+
+Name: org/eclipse/birt/chart/internal/computations/MatrixDecomposition
+ .class
+SHA1-Digest: 6bCNPQfASs5Eo4Gt1hbgE9d6V4k=
+
+Name: org/eclipse/birt/chart/model/attribute/Cursor.class
+SHA1-Digest: miKK2JMF+9gMwYpdRHIZNlQ5Mjc=
+
+Name: org/eclipse/birt/chart/model/attribute/DataPointComponent.class
+SHA1-Digest: 6NQdKdFRxu97kPxkOOBvraOjJCE=
+
+Name: org/eclipse/birt/chart/computation/withaxes/PlotWith3DAxes.class
+SHA1-Digest: MyPNCv0ZdhCo/pMprAMg2tRHj4w=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$ScaleInfo.
+ class
+SHA1-Digest: wEwmvfMwgjnIxgtVkvFaEtY37LM=
+
+Name: org/eclipse/birt/chart/render/CurveRenderer$Spline.class
+SHA1-Digest: I5+rgarB6+j6FqeUpyFjDw108CY=
+
+Name: org/eclipse/birt/chart/event/TransformationEvent.class
+SHA1-Digest: lo+j0ci+OUhWVtl1927U/WXO6+M=
+
+Name: org/eclipse/birt/chart/model/attribute/JavaDateFormatSpecifier.c
+ lass
+SHA1-Digest: X1MK2Iwo2OCll7Otrxqm7yJ0zO8=
+
+Name: org/eclipse/birt/chart/internal/datafeed/UserDataSetProcessor.cl
+ ass
+SHA1-Digest: 00YLkltJOpfG6E6iF9w4Aa+ythg=
+
+Name: org/eclipse/birt/chart/util/PluginSettings.class
+SHA1-Digest: z9R1tC6F3KNKyX2LMgfySBO/d10=
+
+Name: org/eclipse/birt/chart/render/DeferredCacheManager.class
+SHA1-Digest: RaSDFygR+Wkv84oJiu3AoFXQ/gw=
+
+Name: org/eclipse/birt/chart/model/layout/util/LayoutResourceFactoryIm
+ pl.class
+SHA1-Digest: OdM/NnzQA2Y9dzdgIVVMeHJE4Ok=
+
+Name: org/eclipse/birt/chart/model/data/util/DataResourceFactoryImpl.c
+ lass
+SHA1-Digest: Ip6DggR4H8PsNQe0l/P8OKPdqtg=
+
+Name: org/eclipse/birt/chart/model/attribute/IntersectionType.class
+SHA1-Digest: is0Ykn1AhfZvV9gmbJFLFNHXEPE=
+
+Name: org/eclipse/birt/chart/model/attribute/NumberFormatSpecifier.cla
+ ss
+SHA1-Digest: PgW2EsiYeKP+ZtAX/hH0vjM3wZc=
+
+Name: org/eclipse/birt/chart/device/IUpdateNotifier.class
+SHA1-Digest: eyCAtMTd6UIlc8R550qzWeIy9Fg=
+
+Name: org/eclipse/birt/chart/internal/datafeed/ResultSetWrapper$YGroup
+ ingSorter.class
+SHA1-Digest: zr7FE4o/qj9Gx4Elj/EDWx5m+gA=
+
+Name: org/eclipse/birt/chart/model/type/impl/DialSeriesImpl.class
+SHA1-Digest: 6F0pfHcrKQRRGLpqT0AMkGOodbg=
+
+Name: org/eclipse/birt/chart/model/attribute/TooltipValue.class
+SHA1-Digest: 5cfl5mgNtEuOCATECzXLDTnW6iA=
+
+Name: org/eclipse/birt/chart/computation/withaxes/StackGroup.class
+SHA1-Digest: n/loWeaxxsPnajQRlNYtjw+LMuA=
+
+Name: org/eclipse/birt/chart/model/component/impl/MarkerRangeImpl.clas
+ s
+SHA1-Digest: CwM/KBrcSUcoXz4CQ8Det/U9p5E=
+
+Name: org/eclipse/birt/chart/model/attribute/SortOption.class
+SHA1-Digest: qSr+AydXew0tnfbgH3u0iMm4NGI=
+
+Name: org/eclipse/birt/chart/model/type/impl/ScatterSeriesImpl.class
+SHA1-Digest: pesY1iKS92+6JjUAIW/Y7YAl1dU=
+
+Name: org/eclipse/birt/chart/model/attribute/Anchor.class
+SHA1-Digest: cVjSCkYyDPTlalMDrsKGabluH34=
+
+Name: org/eclipse/birt/chart/model/attribute/Bounds.class
+SHA1-Digest: xAEdh2MAwLtW1r433z850coAH8Y=
+
+Name: org/eclipse/birt/chart/model/attribute/util/AttributeAdapterFact
+ ory$1.class
+SHA1-Digest: 1HqOcwIMXVuw7Js3B0J+Gc2gYzE=
+
+Name: org/eclipse/birt/chart/event/StructureSource.class
+SHA1-Digest: 3DQPDbjNPmaMXkCWS929NY4SZ5Y=
+
+Name: org/eclipse/birt/chart/model/data/impl/StockDataSetImpl.class
+SHA1-Digest: JH/phpN2YG6KFvyp0e+pjOWHq2g=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$20.class
+SHA1-Digest: ccxx8bQLPpGP1LmXT4fTYxFexgI=
+
+Name: org/eclipse/birt/chart/model/attribute/AxisType.class
+SHA1-Digest: WZuvMVbEc3RkTQfpL0JKiswZt5c=
+
+Name: org/eclipse/birt/chart/factory/AbstractGroupedDataRowExpressionE
+ valuator.class
+SHA1-Digest: y7Xq20l4kU9gyB35u9xJF35aDm8=
+
+Name: org/eclipse/birt/chart/datafeed/DataSetAdapter.class
+SHA1-Digest: NWHEgHjRE8k4+aRgll/4CNvhqfQ=
+
+Name: org/eclipse/birt/chart/script/IScriptContext.class
+SHA1-Digest: KyJJimXWyhh0kDv6ozNGP4WPPYI=
+
+Name: org/eclipse/birt/chart/model/Serializer.class
+SHA1-Digest: o5SkcqboHXId2UiVZZ1way7TKsw=
+
+Name: org/eclipse/birt/chart/factory/RunTimeContext.class
+SHA1-Digest: nVsp8niMyzyglizy1vnukMiKKcs=
+
+Name: org/eclipse/birt/chart/model/attribute/AccessibilityValue.class
+SHA1-Digest: EPH/fXbfx5yyAG1v3aYJe1L2Kak=
+
+Name: org/eclipse/birt/chart/model/type/StockSeries.class
+SHA1-Digest: hQORsfYxaQD7A5HwV4hLkQ0MoPc=
+
+Name: org/eclipse/birt/chart/computation/Point.class
+SHA1-Digest: EInGyDPtw/BurFbk/XWkexNzr+M=
+
+Name: org/eclipse/birt/chart/util/PatternImageUtil$IntColorModel.class
+SHA1-Digest: YGAXkepvyr97WzTvWsc6bucxGOs=
+
+Name: org/eclipse/birt/chart/model/type/impl/BubbleSeriesImpl.class
+SHA1-Digest: ePFrbhmMDDd0G9J7i2wzuGWJTjI=
+
+Name: org/eclipse/birt/chart/event/IRenderInstruction.class
+SHA1-Digest: KM99XfNNtKT/ozjehmCyRbEAJcI=
+
+Name: org/eclipse/birt/chart/util/ChartExpressionUtil$ExpressionCodec.
+ class
+SHA1-Digest: 8GjUP02QHavtVweMOmtM0k+s/3Y=
+
+Name: org/eclipse/birt/chart/model/attribute/ScriptValue.class
+SHA1-Digest: 7/CtHj+0vU6M1pLszAmxxH0pEmI=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil.class
+SHA1-Digest: csz3MNv1HNd1fvhQYz4+2Rdx7vQ=
+
+Name: org/eclipse/birt/chart/device/IDeviceRenderer.class
+SHA1-Digest: G+xmYKFQ/sv3IkSxfayAKe5H6jw=
+
+Name: org/eclipse/birt/chart/model/attribute/Interactivity.class
+SHA1-Digest: gIA4NCCPfh9sSS7X7TbAvRr+VZ8=
+
+Name: org/eclipse/birt/chart/model/impl/ModelPackageImpl$1.class
+SHA1-Digest: DhsDqAl46j/7crxScnqdegogtxE=
+
+Name: org/eclipse/birt/chart/datafeed/IDataPointEntry.class
+SHA1-Digest: ftCc7Enmjfi95WSYqAj6QWYEYRU=
+
+Name: org/eclipse/birt/chart/factory/IGenerator.class
+SHA1-Digest: YSZ9wjK18QLMerQdeqb3AB5jyCE=
+
+Name: org/eclipse/birt/chart/util/ChartExpressionUtil$ExpressionSet.cl
+ ass
+SHA1-Digest: r1sO9klLkbNPZ506j8O/+ZJz2mk=
+
+Name: org/eclipse/birt/chart/model/type/LineSeries.class
+SHA1-Digest: jwuaR2ba845Y7LocJqRvNecUt4s=
+
+Name: org/eclipse/birt/chart/model/attribute/LegendBehaviorType.class
+SHA1-Digest: 8rUrzhDhHqCCZ2VvDV6di3NXukY=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$31.class
+SHA1-Digest: HBQ98mWsszDHS1yRJLyYxAchoBI=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$1.class
+SHA1-Digest: QFcB9cBz5tdaIm1GurbyWTNhEV4=
+
+Name: org/eclipse/birt/chart/model/data/impl/BubbleDataSetImpl.class
+SHA1-Digest: iHb1m7kYMzihx3EfaxFjgmDD+aU=
+
+Name: org/eclipse/birt/chart/computation/LegendEntryRenderingHints.cla
+ ss
+SHA1-Digest: 9U8R25U0f3oroq0cLPeVsoq8tTE=
+
+Name: org/eclipse/birt/chart/model/attribute/StringFormatSpecifier.cla
+ ss
+SHA1-Digest: /FvRD6Z4Ga8b0mfs5ra5RPwE5L8=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$LabelVisib
+ leHelper$2.class
+SHA1-Digest: fsiAicICitap+sPl2c9uUAbWxcE=
+
+Name: org/eclipse/birt/chart/internal/prefs/DefaultsManager$1.class
+SHA1-Digest: +5mWymiMB5ZPih8aDBMCIAOlfIE=
+
+Name: org/eclipse/birt/chart/model/attribute/ChartType.class
+SHA1-Digest: EY9i5pggoPvFHMLDl2/70g0wphA=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$14.class
+SHA1-Digest: jek8WCsQ4QOq1N7mCt0GT3ujttc=
+
+Name: org/eclipse/birt/chart/model/data/DateTimeDataElement.class
+SHA1-Digest: RrinaxhA53o/Epj4NcO2TEdHVuY=
+
+Name: org/eclipse/birt/chart/model/ChartWithAxes.class
+SHA1-Digest: Se/eBTRvMTGxiWdIarg/q/DbyMI=
+
+Name: org/eclipse/birt/chart/util/BigNumber.class
+SHA1-Digest: ANd9OzU2TGwWK30AGWeV48WdhLU=
+
+Name: org/eclipse/birt/chart/computation/LabelLimiter.class
+SHA1-Digest: 8sRfb1+IY+NydwI66KItdxDag1I=
+
+Name: org/eclipse/birt/chart/script/ChartEventHandlerAdapter.class
+SHA1-Digest: YUBg8eK4LOckvUGpx4j/X9WUnBY=
+
+Name: org/eclipse/birt/chart/computation/IGObjectFactory.class
+SHA1-Digest: zMXmhBba6szEjC442J/Lkl3J8mY=
+
+Name: org/eclipse/birt/chart/script/AbstractScriptContext.class
+SHA1-Digest: DVjac3l+BhPURicjuIyR6pgbGxU=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/ColorDefinitionImpl.
+ class
+SHA1-Digest: GjISoAYWyS/ncckRR9X5rzH8FS0=
+
+Name: org/eclipse/birt/chart/model/attribute/Position.class
+SHA1-Digest: QRQTiRiMhNDqTmL7jQVtVNJasTU=
+
+Name: org/eclipse/birt/chart/model/component/MarkerRange.class
+SHA1-Digest: GD5W8GnaHA8/QHngnPWRbyYj234=
+
+Name: org/eclipse/birt/chart/model/attribute/LineAttributes.class
+SHA1-Digest: AXMrz5cWVcjOoqTMrLOQyxAOmog=
+
+Name: org/eclipse/birt/chart/computation/LegendLayoutHints.class
+SHA1-Digest: pLu4tSjLGc4f40IDv1Aj8MR1EX4=
+
+Name: org/eclipse/birt/chart/style/IStyle.class
+SHA1-Digest: ajfcYnCXOMYyWIBd1Tcn5hPtUQI=
+
+Name: org/eclipse/birt/chart/internal/datafeed/ResultSetWrapper$Groupi
+ ngSorter.class
+SHA1-Digest: uvB8LwjshYoKjfIbmIph72uyjKU=
+
+Name: org/eclipse/birt/chart/computation/withaxes/TextAxisLabelTextPro
+ vider.class
+SHA1-Digest: Ug0pTrtUcJjt7nOKYF0TKcdDeFw=
+
+Name: org/eclipse/birt/chart/event/Text3DRenderEvent.class
+SHA1-Digest: yrJl5vav65sbzpczB2VoVxy/h8E=
+
+Name: org/eclipse/birt/chart/model/util/ModelAdapterFactory$1.class
+SHA1-Digest: qEOsFoHcGnFUTZgqN3sf9RMHq1k=
+
+Name: org/eclipse/birt/chart/model/attribute/VerticalAlignment.class
+SHA1-Digest: oRMymMa+X6+LtxmLwikZDWLdNMc=
+
+Name: org/eclipse/birt/chart/model/attribute/MultiURLValues.class
+SHA1-Digest: 2foPbOYYI9JW/cHwFuEiTk5QqsM=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/AccessibilityValueIm
+ pl.class
+SHA1-Digest: yOfJHa3OLBF0vs2g5ipRxqEnrYo=
+
+Name: org/eclipse/birt/chart/model/component/Label.class
+SHA1-Digest: n85HDZlF6C9noOLtI+wkMRUc9sU=
+
+Name: org/eclipse/birt/chart/model/layout/impl/BlockImpl.class
+SHA1-Digest: pjR9oWoLmljujm20kJHYFftixlE=
+
+Name: org/eclipse/birt/chart/model/attribute/ColorDefinition.class
+SHA1-Digest: WYf0mHSlMHDSZXhGAZVeZrGRixw=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/InteractivityImpl.cl
+ ass
+SHA1-Digest: XIZAXHmIPhshecfnncurQJpve98=
+
+Name: org/eclipse/birt/chart/model/attribute/util/AttributeResourceImp
+ l.class
+SHA1-Digest: HKl5EhcxS8SFTijglc/8fS32Yfc=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$25.class
+SHA1-Digest: OaKkvGc2RezYbQPFH92qIB4jRQM=
+
+Name: org/eclipse/birt/chart/model/type/GanttSeries.class
+SHA1-Digest: PwFeW7RVOPcy0soS7+sKHOL3F8c=
+
+Name: org/eclipse/birt/chart/model/data/impl/DataSetImpl.class
+SHA1-Digest: nfW7L74KSRfW+jxe0KNnZg2dunI=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/JavaDateFormatSpecif
+ ierImpl.class
+SHA1-Digest: oROplZncy4kHQrUqhfCylfotoL0=
+
+Name: org/eclipse/birt/chart/factory/Generator.class
+SHA1-Digest: oKcTu9OZOF1tbq6QPFBt0Qf+n18=
+
+Name: org/eclipse/birt/chart/model/attribute/Style.class
+SHA1-Digest: vvbyWYDBVrxUOVemPYlOZwWa5kQ=
+
+Name: org/eclipse/birt/chart/util/PatternImageUtil$IntColorModel$2.cla
+ ss
+SHA1-Digest: oQCBvsZMjq9StugVOVHE5RfO194=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$LegendData.clas
+ s
+SHA1-Digest: H1gGAkYBJ+mlHFDr5BrENLpE6uw=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AxesAdjuster.class
+SHA1-Digest: 8ZihdxCTalP6UQPAWt2Hyllsil8=
+
+Name: org/eclipse/birt/chart/internal/factory/SqlDataRowEvaluator.clas
+ s
+SHA1-Digest: 8Unf9s9S1g2U8On0ApPUoEThurw=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$6.class
+SHA1-Digest: 9GWOlfV3LJ3p41rvkZQfnvv0c18=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/ExtendedPropertyImpl
+ .class
+SHA1-Digest: 4pZ4blC1ftfmWzvEdADdTycFAxQ=
+
+Name: org/eclipse/birt/chart/model/util/InitialValueProvider.class
+SHA1-Digest: thNVWuEvwBtDVe3vIR7qOOR/3Lo=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$19.class
+SHA1-Digest: s8euXuqLMK60Vfk/rk7v3DFrvw4=
+
+Name: model/org.eclipse.birt.chart.model.type.ecore
+SHA1-Digest: 0iUGniS60UJIHWIZAUTUvAHuzVs=
+
+Name: org/eclipse/birt/chart/render/AxesRenderHelper$IAxisTypeComputat
+ ion.class
+SHA1-Digest: hdN8oljzsQfhucdTqtwzujHBkIc=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/MultiURLValuesImpl.c
+ lass
+SHA1-Digest: JOwVfeNjK+Gfh33FKSMy1ShdUVY=
+
+Name: org/eclipse/birt/chart/model/attribute/ExtendedProperty.class
+SHA1-Digest: 3QR7g1Ww4Aj9OMC8g3QeNaHkAD0=
+
+Name: org/eclipse/birt/chart/render/AxesRenderHelper$LogAxisTypeComput
+ ation.class
+SHA1-Digest: mkoxstm9/nuq5dF7TCPTibkFypg=
+
+Name: org/eclipse/birt/chart/computation/EllipsisHelper$ITester.class
+SHA1-Digest: jmpReO1BKb6eoUupy8dqFQ3wmSA=
+
+Name: org/eclipse/birt/chart/model/type/impl/LineSeriesImpl.class
+SHA1-Digest: 3CygYJu6yf32T9lXClFoDhRnCm8=
+
+Name: org/eclipse/birt/chart/script/IChartScriptContext.class
+SHA1-Digest: CQmaF74lh4xqe/xlyWK4eXvksgE=
+
+Name: org/eclipse/birt/chart/computation/IConstants.class
+SHA1-Digest: DJRXDhDB8//ORLKmzvWiDjZtoAE=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/URLValueImpl.class
+SHA1-Digest: kt8HNggWrTvThJt+1VPkBkRpW9Y=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/FillImpl.class
+SHA1-Digest: vlry7kcKx0qtailV+VWpEPfDP3w=
+
+Name: org/eclipse/birt/chart/model/data/util/DataAdapterFactory.class
+SHA1-Digest: /fqTv8GV3Kd2LPjwvIyOlln8q4E=
+
+Name: org/eclipse/birt/chart/model/layout/util/LayoutAdapterFactory.cl
+ ass
+SHA1-Digest: 3PvH2rqZFbUTOD3YXZ0/T2Uokfo=
+
+Name: org/eclipse/birt/chart/event/OvalRenderEvent.class
+SHA1-Digest: wmt1Ynt5ogn2XvKnK10uEiss8O8=
+
+Name: org/eclipse/birt/chart/integrate/SimpleDataRowExpressionEvaluato
+ r.class
+SHA1-Digest: JGdtFcLgfIE+C6VTwZdnpDDl0q0=
+
+Name: org/eclipse/birt/chart/model/attribute/Image.class
+SHA1-Digest: ooutlT1eZsK79UIppH3Oi34aLa4=
+
+Name: org/eclipse/birt/chart/render/AxesRenderHelper.class
+SHA1-Digest: CDR32eUdTjHj3MUMnb8AN6E2j30=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/StyleImpl.class
+SHA1-Digest: Ttwwu5ESengzCIoH5M0xXKnDi6o=
+
+Name: org/eclipse/birt/chart/model/attribute/AttributePackage$Literals
+ .class
+SHA1-Digest: mxw4299Zve3bXne9H5y+N3CMauU=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$CateLabVis
+ Tester.class
+SHA1-Digest: nTUib5v6XMoxvlZB0JXogSeivT4=
+
+Name: org/eclipse/birt/chart/event/WrappedStructureSource.class
+SHA1-Digest: o554avOad5uo9WQWtoaItGibZ9k=
+
+Name: org/eclipse/birt/chart/model/data/impl/DateTimeDataElementImpl.c
+ lass
+SHA1-Digest: UuQsWcAVo5df/2b3tP1PIZejn5w=
+
+Name: model/org.eclipse.birt.chart.model.component.ecore
+SHA1-Digest: X/GI2hxRxcMcgO6vFsRBEa9ryxY=
+
+Name: org/eclipse/birt/chart/computation/IChartComputation.class
+SHA1-Digest: DRp7EVKiGCZZ87mfgyi3WPahhWU=
+
+Name: org/eclipse/birt/chart/model/ModelPackage.class
+SHA1-Digest: 9e08AHhVHx2rWSZeUFpJ4tEFQvk=
+
+Name: org/eclipse/birt/chart/model/type/impl/GanttSeriesImpl.class
+SHA1-Digest: dh1JtnS3pXtUIEJPiT+n/ZybEmk=
+
+Name: org/eclipse/birt/chart/internal/datafeed/GroupingLookupHelper$Va
+ lueSeriesExprBuilder$2.class
+SHA1-Digest: ikw/NRTuH/QylTRTHZ31Yc5yFgk=
+
+Name: org/eclipse/birt/chart/computation/withaxes/OneAxis.class
+SHA1-Digest: gRf3AFzUzbQTaX0xY1wt2C3nupk=
+
+Name: org/eclipse/birt/chart/model/layout/Block.class
+SHA1-Digest: fNyFb70IPdnitZYWDY4ZYXiZhrU=
+
+Name: org/eclipse/birt/chart/model/attribute/EmbeddedImage.class
+SHA1-Digest: 2cp84zuo3OjD6fnBDE7nUnsnwvI=
+
+Name: org/eclipse/birt/chart/model/layout/LabelBlock.class
+SHA1-Digest: 6IIrSycPHrclHo2IMCTh2rNzfUM=
+
+Name: org/eclipse/birt/chart/model/data/impl/NumberDataElementImpl.cla
+ ss
+SHA1-Digest: RvmrLIbUeQ9Me1pH2S2V+hpdixw=
+
+Name: org/eclipse/birt/chart/model/attribute/LegendItemType.class
+SHA1-Digest: ul9mfLRiyVv5+DE/WNrVkXRrczw=
+
+Name: org/eclipse/birt/chart/factory/Generator$1.class
+SHA1-Digest: ovbwREdiCK+CpFLsBksWbBKJTf4=
+
+Name: org/eclipse/birt/chart/model/data/Rule.class
+SHA1-Digest: EzAYvY0nGQ0wjaR/dexrsEuixGM=
+
+Name: org/eclipse/birt/chart/model/data/impl/TextDataSetImpl.class
+SHA1-Digest: sbgnzSCgdzCok4O7BEyVP3+m/gE=
+
+Name: org/eclipse/birt/chart/render/BaseRenderer$2.class
+SHA1-Digest: ppDOM7sZHdfc56ef5aysmxiBRP0=
+
+Name: org/eclipse/birt/chart/internal/log/DefaultLoggerImpl.class
+SHA1-Digest: /wlld8d1F+zLJzB195FZhCxHbuM=
+
+Name: model/model.genmodel
+SHA1-Digest: 8o3rmDLtqdoJEcShNm0D/KhotcM=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: schema/datasetprocessors.exsd
+SHA1-Digest: FqrAncXI96MLxt8BNFVHm/W1haI=
+
+Name: org/eclipse/birt/chart/computation/LegendItemHints$Type.class
+SHA1-Digest: p2AZqTbAumCKOfFOs0xwZ9G7YCE=
+
+Name: org/eclipse/birt/chart/model/attribute/util/AttributeSwitch.clas
+ s
+SHA1-Digest: 0N4FRdSU1WeD/+vpN7MloF7+sfg=
+
+Name: org/eclipse/birt/chart/model/type/util/TypeAdapterFactory$1.clas
+ s
+SHA1-Digest: Ut5S2dg1s9pVEDRToaaqR1LZemo=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/MultipleFillImpl.cla
+ ss
+SHA1-Digest: vTyJjUwRvsWOekQ5/JV8Jkw0v+8=
+
+Name: .options
+SHA1-Digest: LSMNaLYXxEFFC+PQDEFjqybq+FI=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/ActionValueImpl.clas
+ s
+SHA1-Digest: M1bIhqxhEIn2NBEIVj/NSf8O90Y=
+
+Name: org/eclipse/birt/chart/engine/i18n/nls.properties
+SHA1-Digest: OAU09qIQpDPmLsro8jEIq3cTnBM=
+
+Name: org/eclipse/birt/chart/model/attribute/ScaleUnitType.class
+SHA1-Digest: H9OKEm8MqVLHITBgytqjutEWm90=
+
+Name: org/eclipse/birt/chart/computation/EllipsisHelper.class
+SHA1-Digest: yPprsipLXWXEC4aQ94uXqF3uVyc=
+
+Name: org/eclipse/birt/chart/internal/factory/DateFormatWrapperFactory
+ $CommonDateFormatWrapper.class
+SHA1-Digest: SvPCm2LQuZNHBv2eyULl4aSy6Kg=
+
+Name: org/eclipse/birt/chart/model/attribute/MultipleFill.class
+SHA1-Digest: T1VF3CN6ttHGqvsMi98jPxq1EOw=
+
+Name: org/eclipse/birt/chart/internal/layout/LayoutManager$ChartLayout
+ .class
+SHA1-Digest: 30v27/foUtLdnQ/UXwP88w+qpXc=
+
+Name: org/eclipse/birt/chart/computation/GObjectFactory.class
+SHA1-Digest: SU8jX7SFKSQabqCAzZCWFOmSvaY=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/FontDefinitionImpl.c
+ lass
+SHA1-Digest: XdTcZj6CsUWhKYygtmgMudftp5k=
+
+Name: org/eclipse/birt/chart/datafeed/AbstractDataPointDefinition.clas
+ s
+SHA1-Digest: l+c4RyacSVAyvCDElMQp+9Lolh0=
+
+Name: org/eclipse/birt/chart/model/type/impl/DifferenceSeriesImpl.clas
+ s
+SHA1-Digest: wDbYm87IAFunkt00xwye27fcMdI=
+
+Name: org/eclipse/birt/chart/model/attribute/MenuStylesKeyType.class
+SHA1-Digest: AVYYWzHFKc2s6sMP4o0OQpdFegs=
+
+Name: org/eclipse/birt/chart/model/type/impl/PieSeriesImpl.class
+SHA1-Digest: pK3PI87SlEcF6ccKszHfA/pgpXQ=
+
+Name: org/eclipse/birt/chart/model/attribute/TriggerCondition.class
+SHA1-Digest: z34G+LODLvk9f/ZZR3ugJj5Ivac=
+
+Name: org/eclipse/birt/chart/model/type/util/TypeResourceFactoryImpl.c
+ lass
+SHA1-Digest: 1wMiDZUZm3QHiG7SGGM6aa/0g5Q=
+
+Name: org/eclipse/birt/chart/model/attribute/DataType.class
+SHA1-Digest: sUum/VNZlGCEff6NrDTvyEAiF0I=
+
+Name: org/eclipse/birt/chart/util/TriggerSupportMatrix.class
+SHA1-Digest: DlsbuICGHaZ+IZjYJuzZdkTCrGw=
+
+Name: org/eclipse/birt/chart/internal/datafeed/GroupingLookupHelper.cl
+ ass
+SHA1-Digest: eGyvw7QDxYBWFRACA7Ucmxk2w7I=
+
+Name: org/eclipse/birt/chart/api/ChartEngine.class
+SHA1-Digest: GSQKDtoHPJxPBGagbXuMYlzf4lI=
+
+Name: org/eclipse/birt/chart/model/component/util/ComponentAdapterFact
+ ory.class
+SHA1-Digest: CwQv2tcv6Sy0HX/x9UMvInj0SyA=
+
+Name: org/eclipse/birt/chart/model/component/ComponentFactory.class
+SHA1-Digest: 9hxQp8PjGaWJT9pLhNEFoeCwoq8=
+
+Name: org/eclipse/birt/chart/render/BaseRenderer.class
+SHA1-Digest: NTu0Za2WLFnggOQEoaTNr3UoAaU=
+
+Name: org/eclipse/birt/chart/log/ILogger.class
+SHA1-Digest: 3jXBtnTiA3krlVxznVGtl5C1xRs=
+
+Name: org/eclipse/birt/chart/computation/EllipsisHelper$SimpleTester.c
+ lass
+SHA1-Digest: ci8x+q13X+LoQiPcYVOnW/pe0RU=
+
+Name: org/eclipse/birt/chart/event/Area3DRenderEvent.class
+SHA1-Digest: gDqCyj5m3Byl6vKvLs0ddovU2uI=
+
+Name: org/eclipse/birt/chart/internal/prefs/DefaultsManager.class
+SHA1-Digest: qs7+IPT0DlC3kOcsU9PheFKl+D0=
+
+Name: org/eclipse/birt/chart/util/NameSet.class
+SHA1-Digest: XQLxpsU+S7OaREzIrm5jMdzbcQk=
+
+Name: org/eclipse/birt/chart/internal/factory/DateFormatWrapperFactory
+ .class
+SHA1-Digest: HNbC5pZqgxEnK2IoSnKUtrYh2Vg=
+
+Name: plugin.xml
+SHA1-Digest: ELUQefrMkV/XGRpe92FrLZgIZwM=
+
+Name: org/eclipse/birt/chart/engine/i18n/Messages.class
+SHA1-Digest: Xp4GGkyeJV1C0Q1sGSgqbSQTuIM=
+
+Name: org/eclipse/birt/chart/exception/ChartException.class
+SHA1-Digest: As6bt20zLR+JYJ09iy1cG43UNPQ=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$30.class
+SHA1-Digest: IhTT+TZQPfF6balS8oTuBLZnquU=
+
+Name: org/eclipse/birt/chart/internal/factory/IDateFormatWrapper.class
+SHA1-Digest: MG0JNfrzk+FthyFWYUJys1HONYc=
+
+Name: model/org.eclipse.birt.chart.model.data.ecore
+SHA1-Digest: JrrfqfzNfTHJs9MP7QoHvIpvJvg=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$LabelVisib
+ leHelper$1.class
+SHA1-Digest: DeqdJXJGwlNA3eTO/TAtKRx6xHo=
+
+Name: org/eclipse/birt/chart/util/ChartUtil$CacheDateFormat.class
+SHA1-Digest: FhnGLPWWrLh3t2f5GZNS8qXVDjY=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$13.class
+SHA1-Digest: As3RS06iWga7dOh3ITgPOwP0JxE=
+
+Name: org/eclipse/birt/chart/model/attribute/Palette.class
+SHA1-Digest: zFNohCN/7Rqbbnp3fPH6wjvlKbk=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/Rotation3DImpl.class
+SHA1-Digest: MUPFpjwHrHkh49T5MQT1EU8AFOc=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/GradientImpl.class
+SHA1-Digest: DQpCo56iamy8FLpfytLXibIPzo4=
+
+Name: org/eclipse/birt/chart/aggregate/IAggregateFunction.class
+SHA1-Digest: ZcUT6SQjaFCOWQZqmbHLfhF4sjg=
+
+Name: org/eclipse/birt/chart/script/IChartEventHandler.class
+SHA1-Digest: j9Z5Z7ppvMDSmVtyzRtgQk1o7SI=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$StaggeredH
+ elper$3.class
+SHA1-Digest: 7JInET0HRkU4bQQ7oqwqUfOoUM0=
+
+Name: org/eclipse/birt/chart/event/Oval3DRenderEvent.class
+SHA1-Digest: 2ABevoMunoXurBfLhTJKAqClBBI=
+
+Name: org/eclipse/birt/chart/model/type/util/TypeResourceImpl.class
+SHA1-Digest: FplAdMQQ89aDOT3ZYGtenCsKWIE=
+
+Name: schema/doc/org.eclipse.birt.chart.engine.renderers.html
+SHA1-Digest: LnI0BIUtVwExxCoRaOee96OJsvk=
+
+Name: org/eclipse/birt/chart/model/attribute/Gradient.class
+SHA1-Digest: 9VeoJ8ii5vHAKutYX1hJFgXIB9U=
+
+Name: org/eclipse/birt/chart/device/ScriptMenuHelper.class
+SHA1-Digest: R1OBScnGvECyinyYwfipEWKE3KE=
+
+Name: org/eclipse/birt/chart/device/TextAdapter.class
+SHA1-Digest: ZBCuhAviE6AxZmFPoR4myuiPNGA=
+
+Name: org/eclipse/birt/chart/model/data/BubbleDataSet.class
+SHA1-Digest: dnTOp9izhUXyFMHIZTGnWNaQ9og=
+
+Name: org/eclipse/birt/chart/model/component/impl/AxisImpl.class
+SHA1-Digest: J3xrHTgVsD6Jr3sber9qn/fcy2M=
+
+Name: org/eclipse/birt/chart/event/ChartEvent.class
+SHA1-Digest: XUNjjmeQPtmhXcfrF6V00IR8uiU=
+
+Name: org/eclipse/birt/chart/model/util/ModelResourceFactoryImpl.class
+SHA1-Digest: ZvQV+Lf5JV/84BHkLcU8Wl1mnkw=
+
+Name: org/eclipse/birt/chart/model/attribute/TickStyle.class
+SHA1-Digest: yCcVHOYyY7MqDBsDACvCM+GsaUk=
+
+Name: model/org.eclipse.birt.chart.model.ecore
+SHA1-Digest: gMtf2knW1ojoOYrln8dWRiyBqKc=
+
+Name: org/eclipse/birt/chart/model/data/impl/BaseSampleDataImpl.class
+SHA1-Digest: hvMW8xIkNBS2G3MM3TtoEGPTncE=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$24.class
+SHA1-Digest: shOz4/HV6tes0kWeYA/vFrrqIFw=
+
+Name: org/eclipse/birt/chart/model/attribute/GroupingUnitType.class
+SHA1-Digest: jFK0eyjFZrQw1m+Vbfo6IFO3Ics=
+
+Name: org/eclipse/birt/chart/event/TextRenderEvent.class
+SHA1-Digest: WhmoIJZIQQgGRpvLUHUs+jRDJsQ=
+
+Name: org/eclipse/birt/chart/script/ScriptHandler.class
+SHA1-Digest: 2lfwR4ea++ML771/aP9MmvpasN0=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/AttributeFactoryImpl
+ .class
+SHA1-Digest: uE4WzX6QHU2qTnNaSuKar8GDMNA=
+
+Name: org/eclipse/birt/chart/computation/withaxes/SeriesRenderingHints
+ 3D.class
+SHA1-Digest: k8YzbLbbxXaHydNxBDG56PzzbPo=
+
+Name: org/eclipse/birt/chart/model/attribute/HorizontalAlignment.class
+SHA1-Digest: FXbvNBvpbyiV/U7XY/f+yYRTyQc=
+
+Name: org/eclipse/birt/chart/model/data/DateTimeDataSet.class
+SHA1-Digest: 57HpLEjgls7lTADLIDrzmeT1LCM=
+
+Name: org/eclipse/birt/chart/render/EmptyWithAxes.class
+SHA1-Digest: Fw2jPSk20Fn11T0VOI3FF4FFEqc=
+
+Name: schema/doc/org.eclipse.birt.chart.engine.datasetprocessors.html
+SHA1-Digest: MCAqgr7w+iln5xR0kQ+FeeP1FtA=
+
+Name: org/eclipse/birt/chart/model/type/TypeFactory.class
+SHA1-Digest: z4SOBFawh+ty6rq1pfZRa7OU5uQ=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/AttributePackageImpl
+ $1.class
+SHA1-Digest: wHBtdBFdn8/RvNmEGZqlqL/R91Y=
+
+Name: org/eclipse/birt/chart/model/attribute/AttributeFactory.class
+SHA1-Digest: JdgmW38NjCYP9J9Z+svau4p5t2o=
+
+Name: org/eclipse/birt/chart/model/layout/impl/ClientAreaImpl.class
+SHA1-Digest: hnAJLSpXGVcS0sVxANJWthDG+XQ=
+
+Name: org/eclipse/birt/chart/model/attribute/ActionType.class
+SHA1-Digest: ABRlLevzNh5QeTvtSF56cppa8OM=
+
+Name: org/eclipse/birt/chart/internal/datafeed/ChartVariableHelper.cla
+ ss
+SHA1-Digest: 2zewPjZGIVBx3/AlPNBpiT8Oqbg=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$HorizontalPlace
+ r.class
+SHA1-Digest: 6dzGB7BF949GrIyDVvO/jLQuUwI=
+
+Name: org/eclipse/birt/chart/util/PatternImageUtil$IntColorModel$1.cla
+ ss
+SHA1-Digest: TS3L72AJf7xQbEVRvBR9EMIwrjs=
+
+Name: org/eclipse/birt/chart/util/CDateTime.class
+SHA1-Digest: cWXGC+jiOHiLEO89o6k/vLbPAx8=
+
+Name: org/eclipse/birt/chart/model/data/NullDataSet.class
+SHA1-Digest: vGhURXDyW4KvaH3DS9w5VJMF8w4=
+
+Name: org/eclipse/birt/chart/event/LineRenderEvent.class
+SHA1-Digest: kk270WAF+4HOoclU+WKnmfn8n/k=
+
+Name: org/eclipse/birt/chart/model/component/impl/ScaleImpl.class
+SHA1-Digest: AQg4MvoQr6hxF3kfegUO8luZNWQ=
+
+Name: org/eclipse/birt/chart/computation/withaxes/HorizontalAxisAdjust
+ er.class
+SHA1-Digest: ZE1xk9Ka6o7k63fY9BErZDpz1gU=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$5.class
+SHA1-Digest: lxtWeZPUHzXp8qifalTaIHFlT0g=
+
+Name: org/eclipse/birt/chart/internal/factory/DateFormatWrapperFactory
+ $HourDateFormat.class
+SHA1-Digest: eGhki0mB72S1R6JVm6efOSoCU7s=
+
+Name: org/eclipse/birt/chart/computation/withaxes/Grid.class
+SHA1-Digest: HC0MQZFyP39x385WDnR5tcGYjdw=
+
+Name: org/eclipse/birt/chart/computation/withaxes/DatetimeAxisLabelTex
+ tProvider.class
+SHA1-Digest: gmkg3VZCjxd0orDSLJr8cVfO4Lk=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$18.class
+SHA1-Digest: 4AK7t/xNLU72+g8m1TRMVkN5vNk=
+
+Name: schema/datapointdefinitions.exsd
+SHA1-Digest: xPxcB3qSs1idBWYxAQewERpP63k=
+
+Name: org/eclipse/birt/chart/event/PolygonRenderEvent.class
+SHA1-Digest: owX84jU/iZ+esZr8fnJnPsQPK0g=
+
+Name: org/eclipse/birt/chart/model/util/ChartElementUtil.class
+SHA1-Digest: vIk9IfJVz+Ss7Vr5L0NrbTntOG8=
+
+Name: org/eclipse/birt/chart/model/attribute/ChartDimension.class
+SHA1-Digest: OieJFjIqBRze297HMXQ91u4if24=
+
+Name: org/eclipse/birt/chart/computation/withoutaxes/SeriesRenderingHi
+ nts.class
+SHA1-Digest: wNIZTBPXv07XWfzidxZnkfUwEQk=
+
+Name: org/eclipse/birt/chart/computation/SeriesNameFormat$SeriesNameDa
+ teFormat.class
+SHA1-Digest: 02Zkh/lL9h33AnEgKUazfIJHGGA=
+
+Name: model/model.xsd2ecore
+SHA1-Digest: LOxs9KV3D3DlwSvjponzz/0jBdk=
+
+Name: org/eclipse/birt/chart/model/layout/Legend.class
+SHA1-Digest: IZoQboUD9dm7yekK8adatpdiCPo=
+
+Name: org/eclipse/birt/chart/model/data/impl/SeriesGroupingImpl.class
+SHA1-Digest: h5ykEgVJJFgIlDrlA8wrdCSp5DU=
+
+Name: org/eclipse/birt/chart/internal/factory/DateFormatWrapperFactory
+ $MonthDateFormat.class
+SHA1-Digest: VNxm76abvQEK1yCr/45CCDlBDY4=
+
+Name: org/eclipse/birt/chart/render/MarkerRenderer.class
+SHA1-Digest: CgyY6OX1gN53VqwCRR1Knahe5WU=
+
+Name: org/eclipse/birt/chart/util/ChartUtil$CacheDecimalFormat.class
+SHA1-Digest: JVynkWvxlGAG6QH5pgGpJRFc7dg=
+
+Name: org/eclipse/birt/chart/computation/withaxes/LinearAxisLabelTextP
+ rovider.class
+SHA1-Digest: 2/UNVqxlAbItAs2cYehe0rO7cFc=
+
+Name: org/eclipse/birt/chart/model/impl/ChartWithoutAxesImpl.class
+SHA1-Digest: lkIXd3agY4rMjO5uyJhESBXsjDE=
+
+Name: org/eclipse/birt/chart/device/IPrimitiveRenderer.class
+SHA1-Digest: YL0nWx0XZJ0BHRP+oLcT93hICBI=
+
+Name: org/eclipse/birt/chart/internal/log/JavaUtilLoggerImpl$1.class
+SHA1-Digest: roF/DhqSwZPHGkCLYvubh7S1HRM=
+
+Name: org/eclipse/birt/chart/event/ClipRenderEvent.class
+SHA1-Digest: LPV7uSIovZd0xVK5xtHKqY9dM/M=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/AttributePackageImpl
+ .class
+SHA1-Digest: nY1LlW9XYVZVxHHBS/U6WQAvuaU=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$29.class
+SHA1-Digest: BUiQ3merJ6fDW8KPMY04g/8O8rY=
+
+Name: org/eclipse/birt/chart/model/data/DataPackage.class
+SHA1-Digest: NGzy3GEMNKUiiQC7fVkYRXZGmgY=
+
+Name: org/eclipse/birt/chart/device/ITextMetrics.class
+SHA1-Digest: y0Ra1HWZ9nvm699i9sxM6gFTEMA=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale.class
+SHA1-Digest: +/0ufBn5oNYHZTRvBycmwGSi7+U=
+
+Name: org/eclipse/birt/chart/model/attribute/RiserType.class
+SHA1-Digest: Z81snNPug1XVEwyG7K/E/FMr6lU=
+
+Name: org/eclipse/birt/chart/model/type/impl/BarSeriesImpl.class
+SHA1-Digest: yO/Q15x1EJoD+Wacaja8wdQaWRk=
+
+Name: org/eclipse/birt/chart/device/EmptyUpdateNotifier.class
+SHA1-Digest: UJNug8muKdGadM74v3jJ9lYNJUk=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/PaletteImpl.class
+SHA1-Digest: tAlQVkiy70kEZNpON1L95SY1xrs=
+
+Name: org/eclipse/birt/chart/internal/datafeed/GroupingLookupHelper$Va
+ lueSeriesExprBuilder$1.class
+SHA1-Digest: Ss9gJLl3l0hoAVQiJSZ0kvvQ/Y4=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$LabelVisib
+ leHelper.class
+SHA1-Digest: j7AN72KrTHlxCXEgHI+GKymW0H0=
+
+Name: org/eclipse/birt/chart/model/type/util/TypeSwitch.class
+SHA1-Digest: yJo2Mj2B3+sKBsTv1m6IoIOZVr4=
+
+Name: schema/modelrenderers.exsd
+SHA1-Digest: r2J3kavLLvu/UvZ8zk4RM16Cuk4=
+
+Name: org/eclipse/birt/chart/model/data/NumberDataSet.class
+SHA1-Digest: qDguEWsjGSfF6uHPCpm09eXenp8=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/FormatSpecifierImpl.
+ class
+SHA1-Digest: IpRc+kMuuuta6dulZJZoC5oWMmI=
+
+Name: org/eclipse/birt/chart/render/BaseRenderer$1.class
+SHA1-Digest: oMYqiFWXmRUVogk7Rz+yv2F77kI=
+
+Name: org/eclipse/birt/chart/internal/prefs/PreferenceKey.class
+SHA1-Digest: SavQhH1Dgn0U+wJQGjxmSLAUJJI=
+
+Name: org/eclipse/birt/chart/device/IImageMapEmitter.class
+SHA1-Digest: 9AV+Gpqp0vmrZ57fxD0sUM2KgiE=
+
+Name: org/eclipse/birt/chart/model/impl/ChartImpl.class
+SHA1-Digest: Sw4EaEkCqZxUWTFAAPHyYIuYFgc=
+
+Name: org/eclipse/birt/chart/model/util/ModelSwitch.class
+SHA1-Digest: 2UYLqJse2np9KqEXtk7qQTiUKD8=
+
+Name: org/eclipse/birt/chart/model/attribute/DateFormatSpecifier.class
+SHA1-Digest: Tu/HjAlxr4McsG9IFEwZBGrR2HA=
+
+Name: org/eclipse/birt/chart/model/data/impl/DataElementImpl.class
+SHA1-Digest: i1pNbhJr3Lsc5p7OGLFznqsjJS8=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$AxisValueP
+ rovider.class
+SHA1-Digest: jIxvR+uc9sL3LOi8lELPqMZ3vkQ=
+
+Name: org/eclipse/birt/chart/model/data/DifferenceDataSet.class
+SHA1-Digest: FKgPYHDt/E8dp62E+4JvXYc+gl0=
+
+Name: org/eclipse/birt/chart/event/ImageRenderEvent.class
+SHA1-Digest: b4Ag8lVIGe2IIQ08tnUQqobfGd8=
+
+Name: org/eclipse/birt/chart/computation/withaxes/LogAxisLabelTextProv
+ ider.class
+SHA1-Digest: WuKKTbTvhXTsE385Q126YzvHtkA=
+
+Name: org/eclipse/birt/chart/device/IStructureDefinitionListener.class
+SHA1-Digest: lwLAA7ywWRd7wJlo4+O2DWZJcAc=
+
+Name: org/eclipse/birt/chart/model/attribute/util/AttributeXMLProcesso
+ r.class
+SHA1-Digest: 34NgqRlcWo3mEPErAzOY/2HKTAo=
+
+Name: org/eclipse/birt/chart/model/util/InitialValueProvider$DefSeries
+ DefinitionPool.class
+SHA1-Digest: pbEA9Tcwqc/s672HqiSOJIoLyZc=
+
+Name: org/eclipse/birt/chart/model/attribute/DataPoint.class
+SHA1-Digest: qIStnVk/ke2yyuDu/DZeClOPFb8=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AxisSubUnit.class
+SHA1-Digest: 5X7MoRJLaPBXQsFMbvAOLdOTC3Y=
+
+Name: org/eclipse/birt/chart/event/StructureChangeEvent.class
+SHA1-Digest: zUI46y2KbA1l+LfOD4KQOVQ8nZs=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/SizeImpl.class
+SHA1-Digest: ROuoi+RJTupSVbs7vquFiqGctYY=
+
+Name: org/eclipse/birt/chart/model/component/Series.class
+SHA1-Digest: 5ITEWcb2wWPOvDEpwc59M7Gw9Pg=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/ScriptValueImpl.clas
+ s
+SHA1-Digest: jGaLvvG2IzVjCDZhgU+2Xr/yVNI=
+
+Name: org/eclipse/birt/chart/model/util/ModelResourceImpl.class
+SHA1-Digest: 7SwDG73Hv6gVrpxzt8SejW4+4HY=
+
+Name: org/eclipse/birt/chart/util/ChartUtil$Cache.class
+SHA1-Digest: U3EpKnZu8NifnGBAHeshWlKVWLg=
+
+Name: org/eclipse/birt/chart/model/impl/SerializerImpl.class
+SHA1-Digest: TwVv4QSxtkipM6Hd5Iwme8Q90+4=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$ValueContentPro
+ vider$Status.class
+SHA1-Digest: eFakcsUQL7uJ9erjFT2hzlTkr/o=
+
+Name: org/eclipse/birt/chart/render/ISeriesRenderingHints3D.class
+SHA1-Digest: IDuycETHAOu9EUWuWggw0J/Vvd0=
+
+Name: org/eclipse/birt/chart/script/AbstractScriptHandler.class
+SHA1-Digest: G1ZDOjmc4tNW0bcqc27fR111Vg4=
+
+Name: org/eclipse/birt/chart/model/attribute/URLValue.class
+SHA1-Digest: tLbhTlETYRDPWg1O3xQKo73aI/w=
+
+Name: org/eclipse/birt/chart/model/attribute/FractionNumberFormatSpeci
+ fier.class
+SHA1-Digest: KlH9vzgNBAzRh5TCJzWL9Db6dNY=
+
+Name: org/eclipse/birt/chart/model/attribute/FontDefinition.class
+SHA1-Digest: sTiAcZQES0wiQRlc9uOsmbQ1X4E=
+
+Name: org/eclipse/birt/chart/device/ICallBackNotifier.class
+SHA1-Digest: 5YeRYy7TCbna77TKwqAMCPucaa4=
+
+Name: org/eclipse/birt/chart/factory/DataRowExpressionEvaluatorAdapter
+ .class
+SHA1-Digest: WKRRjjJDntZr9KpCp9tkZs4dPQQ=
+
+Name: org/eclipse/birt/chart/model/layout/LayoutPackage.class
+SHA1-Digest: HtZ0d83SeB89WW6yNlysatQYK6o=
+
+Name: org/eclipse/birt/chart/device/DisplayAdapter.class
+SHA1-Digest: jUfewxaqmWFSqEIitb821OQMK2k=
+
+Name: org/eclipse/birt/chart/model/data/util/DataAdapterFactory$1.clas
+ s
+SHA1-Digest: prODTk2fD+J72BrrCzVnqYLiZjY=
+
+Name: org/eclipse/birt/chart/model/layout/util/LayoutAdapterFactory$1.
+ class
+SHA1-Digest: xRDJecbWu/NliclizqRysSAGgB4=
+
+Name: org/eclipse/birt/chart/model/impl/ModelFactoryImpl.class
+SHA1-Digest: jxaCqiktf4D90ie+fZqvLFdkmEA=
+
+Name: org/eclipse/birt/chart/model/data/impl/DifferenceDataSetImpl.cla
+ ss
+SHA1-Digest: P/YfyPINgkL5n4v2qgmDX6M7N7I=
+
+Name: org/eclipse/birt/chart/model/component/Needle.class
+SHA1-Digest: Xk1zvz50rIFd5tRtQ1LiRmgWB7g=
+
+Name: org/eclipse/birt/chart/computation/LegendItemRenderingHints.clas
+ s
+SHA1-Digest: FbcxZ2K7Qg50SvYTxjLUmJXfco4=
+
+Name: org/eclipse/birt/chart/model/attribute/StyledComponent.class
+SHA1-Digest: 4gZf4LC0YY/F5kaCYNEr0LysIQw=
+
+Name: org/eclipse/birt/chart/computation/withoutaxes/Coordinates.class
+SHA1-Digest: zNfUKqhwTe7V9TjqQpc+C4rukpo=
+
+Name: org/eclipse/birt/chart/integrate/SimpleActionRenderer.class
+SHA1-Digest: Xwojo+A7W/LX7YisgDSo7ZKWLI0=
+
+Name: org/eclipse/birt/chart/internal/datafeed/DataProcessor.class
+SHA1-Digest: nnfNZbJW28omkM6iJDW1i5zigTA=
+
+Name: org/eclipse/birt/chart/model/component/impl/EStringToDataSetMapE
+ ntryImpl.class
+SHA1-Digest: VEidYWVFBHBVbQEDQ0q1XEn0/7Q=
+
+Name: org/eclipse/birt/chart/model/component/util/ComponentResourceFac
+ toryImpl.class
+SHA1-Digest: eg+wJl1yr0oL6AXKcssKCu+tUFE=
+
+Name: org/eclipse/birt/chart/model/data/Action.class
+SHA1-Digest: 2uolhckPgusOkkThwrxDjtqwpwU=
+
+Name: org/eclipse/birt/chart/computation/RotatedRectangle.class
+SHA1-Digest: S3sXJfLElEXuKseuv1fun1vZErc=
+
+Name: org/eclipse/birt/chart/model/data/MultipleActions.class
+SHA1-Digest: wsUHgVD7rbrVjqKUll59QY6PoTg=
+
+Name: org/eclipse/birt/chart/model/type/DialSeries.class
+SHA1-Digest: /NKzIW37m0oHcnAMRbQE5/8U7Oo=
+
+Name: org/eclipse/birt/chart/model/attribute/RuleType.class
+SHA1-Digest: vSjWMYAxy3bp/6SIVkaNziBjuvI=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/DataPointImpl.class
+SHA1-Digest: Sp+xLMtcih9E14VQINbbSLEvfAg=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AxisLabelTextProvide
+ r.class
+SHA1-Digest: wXW2E2dqrzdBtSV0pqLjf+a7xZE=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$12.class
+SHA1-Digest: QH5XrjEvTrfm15NwxuYObnUsQow=
+
+Name: org/eclipse/birt/chart/computation/withaxes/HorizontalAxesAdjust
+ er.class
+SHA1-Digest: OBK0YghTtsmIaYWleytd6/a1T3o=
+
+Name: org/eclipse/birt/chart/event/AreaRenderEvent.class
+SHA1-Digest: NXUcKcbSpu3Q1kpRMykIxNpVcjk=
+
+Name: org/eclipse/birt/chart/model/impl/ChartModelHelper.class
+SHA1-Digest: jVlGAgE/vyDN5UfTMYsEbKHl8hs=
+
+Name: org/eclipse/birt/chart/model/data/impl/OrthogonalSampleDataImpl.
+ class
+SHA1-Digest: EQF1t3VFN5MoKdKazc9dnhyGR8A=
+
+Name: org/eclipse/birt/chart/model/util/ModelAdapterFactory.class
+SHA1-Digest: AYwapEitz9vhAa1MfctnGZm8f1U=
+
+Name: org/eclipse/birt/chart/model/util/BaseChartValueUpdater.class
+SHA1-Digest: vUFBD66zhZqGfY00pTUzQTJXPM0=
+
+Name: org/eclipse/birt/chart/model/data/BigNumberDataElement.class
+SHA1-Digest: EouYZtds7qv7eUmqWdNPsiVlJOg=
+
+Name: org/eclipse/birt/chart/model/data/impl/TriggerImpl.class
+SHA1-Digest: ugf7LO5vPCwjdvxh1/wQrLJhZ1M=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$StaggeredH
+ elper$2.class
+SHA1-Digest: /EfcSK7b5b1mPe3ct/+zENEzgx0=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/InsetsImpl.class
+SHA1-Digest: 9logu1b1QuylHD6WoV9e04ivkdA=
+
+Name: org/eclipse/birt/chart/factory/IExternalizer.class
+SHA1-Digest: ghaDWnEG356uRE+oMkOgme595Co=
+
+Name: org/eclipse/birt/chart/model/attribute/Rotation3D.class
+SHA1-Digest: //FPbORHQ97VNKTzzu/bvOdCNqU=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$LabelVisib
+ leHelper$CommonRule$2.class
+SHA1-Digest: PU9GubfK2de6EM65AejyDnBJtfs=
+
+Name: org/eclipse/birt/chart/aggregate/AggregateFunctionAdapter.class
+SHA1-Digest: Z6K58eFPGREE558wa8n+6zRqjOY=
+
+Name: org/eclipse/birt/chart/internal/log/JavaUtilLoggerImpl.class
+SHA1-Digest: 7oxI1JkJKI2nfJdrUqy/UmCQkG4=
+
+Name: org/eclipse/birt/chart/model/attribute/DataPointComponentType.cl
+ ass
+SHA1-Digest: uRHHKHw0xxBUY4wGPMbx2ft8ySs=
+
+Name: org/eclipse/birt/chart/event/BlockGenerationEvent.class
+SHA1-Digest: 4aWimssBBB1Iiim9qhA+ZCPhKrk=
+
+Name: org/eclipse/birt/chart/render/ISeriesRenderer.class
+SHA1-Digest: Qsu+y3pGtB138uZQ+67pgFNtvj8=
+
+Name: org/eclipse/birt/chart/model/attribute/Location.class
+SHA1-Digest: RCNxCbIg1jC2aC8HJEsq+c6Zigo=
+
+Name: org/eclipse/birt/chart/integrate/SimpleActionHandle.class
+SHA1-Digest: Cx/TOZjeF9QXsAyF7XxxQOKH2I0=
+
+Name: org/eclipse/birt/chart/model/attribute/Marker.class
+SHA1-Digest: sxEPe1g2HTUVWSQkT27f2yJ3szM=
+
+Name: org/eclipse/birt/chart/computation/withaxes/PlotWith3DAxes$HAxis
+ LabelCanvasLocationProvider.class
+SHA1-Digest: si3yYue/BfR0YbIQHp2S6I2q9DI=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$23.class
+SHA1-Digest: cMCmIfXXkQtmt2+A3w1Qwm73L/Y=
+
+Name: org/eclipse/birt/chart/computation/withaxes/PlotWithAxes$AlignZe
+ roHelper.class
+SHA1-Digest: PO3GY+z3qeBv0BmEX2s7YnnE7ao=
+
+Name: org/eclipse/birt/chart/model/layout/Plot.class
+SHA1-Digest: 8Y1/gfiNR5isLdUsHIu+xXlfKZ0=
+
+Name: org/eclipse/birt/chart/style/SimpleStyle.class
+SHA1-Digest: mbR1S+y//lqq+kRx5fEtbaVRqjs=
+
+Name: org/eclipse/birt/chart/model/attribute/ActionValue.class
+SHA1-Digest: 1PhnJqvg3wIkoz6Inpluug9DGVw=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/EmbeddedImageImpl.cl
+ ass
+SHA1-Digest: s8m2vDbwGKQxBZgAjvhVkdJwL+A=
+
+Name: org/eclipse/birt/chart/model/component/DialRegion.class
+SHA1-Digest: V5MDaaxHYE8MI2AYI62qGMQ0oj4=
+
+Name: org/eclipse/birt/chart/model/impl/ModelPackageImpl.class
+SHA1-Digest: ogMCfZo/ArASQWu7A6+EF5iXYy4=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/TextAlignmentImpl.cl
+ ass
+SHA1-Digest: F6B4wYOXISqcXZ083dHb9wjJe9U=
+
+Name: org/eclipse/birt/chart/model/data/SeriesDefinition.class
+SHA1-Digest: /Fc0Srz/236HoqpYkPpMnUUkYFM=
+
+Name: org/eclipse/birt/chart/model/type/TypePackage$Literals.class
+SHA1-Digest: aGy0mZ8V255HEBAa87NNwJaMAMg=
+
+Name: org/eclipse/birt/chart/model/attribute/LineDecorator.class
+SHA1-Digest: RqeaSPcjMrmk2HAb4g3izjLnzBs=
+
+Name: org/eclipse/birt/chart/model/data/util/DataResourceImpl.class
+SHA1-Digest: iJpsGUFtkwZTIUSswvqfAkqn0mw=
+
+Name: org/eclipse/birt/chart/model/layout/util/LayoutResourceImpl.clas
+ s
+SHA1-Digest: 47hAjr21SLAYhmzFwCE1gUUNx8A=
+
+Name: org/eclipse/birt/chart/model/component/CurveFitting.class
+SHA1-Digest: rIku2ISWDJokhakFozOhm9pKqRE=
+
+Name: org/eclipse/birt/chart/model/component/impl/ChartPreferencesImpl
+ .class
+SHA1-Digest: Id2pyPpTgukcCPda59ps4hydh0k=
+
+Name: org/eclipse/birt/chart/script/ScriptClassLoaderAdapter.class
+SHA1-Digest: NKfVeyCYQS4VMpu5OvKBb5L2qvA=
+
+Name: org/eclipse/birt/chart/model/component/util/ComponentAdapterFact
+ ory$1.class
+SHA1-Digest: d+TMmM18Ftv17kpqLNJuap3BSTc=
+
+Name: org/eclipse/birt/chart/model/component/impl/DialRegionImpl.class
+SHA1-Digest: 5Glx8QK8Z19TwNEZUF8HSVRdf2M=
+
+Name: org/eclipse/birt/chart/computation/withaxes/AutoScale$StaggeredH
+ elper.class
+SHA1-Digest: VGUqrH5Jh7A+4iG20yUMWs3rM1A=
+
+Name: org/eclipse/birt/chart/computation/DataSetIterator.class
+SHA1-Digest: hK3qyY5jjZCK8dDoWymVmN2lpTs=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$34.class
+SHA1-Digest: r6DJimYGQhsMk4JH5Hdn/1VroRk=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$4.class
+SHA1-Digest: X5XJ5+ucCyrKxo0EkuQFEoPoqZ0=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/StyleMapImpl.class
+SHA1-Digest: J2YEENMYGx8w+eqzWbDDHjCwv/0=
+
+Name: org/eclipse/birt/chart/model/data/DataSet.class
+SHA1-Digest: VOiV1Y+fKx5xc//IRNq7ClXRZyM=
+
+Name: org/eclipse/birt/chart/style/SimpleProcessor.class
+SHA1-Digest: TeYi+7olPSdu1AnI02k7LCrrm7I=
+
+Name: org/eclipse/birt/chart/util/SecurityUtil$17.class
+SHA1-Digest: lpgmQ+W+di+80oP7CYgFfKIOlpI=
+
+Name: org/eclipse/birt/chart/model/IExtChartModelLoader.class
+SHA1-Digest: JZmyl4g9oFI/OL7SCMYZZWJG2Nc=
+
+Name: org/eclipse/birt/chart/model/layout/impl/LegendImpl.class
+SHA1-Digest: eYE2MXZwV64ZwK96eiL96e128NQ=
+
+Name: org/eclipse/birt/chart/render/AxesRenderHelper$LinearAxisTypeCom
+ putation.class
+SHA1-Digest: ITI/d96cdcueN6pxZ+P8Nqznqs0=
+
+Name: org/eclipse/birt/chart/computation/LegendBuilder$VerticalPlacer.
+ class
+SHA1-Digest: 1v2HFx6tkI7KZYaO0VznZkutAJM=
+
+Name: org/eclipse/birt/chart/model/attribute/util/AttributeValidator.c
+ lass
+SHA1-Digest: 8g40ByB5pRbMxkyVe32GrmbpFmY=
+
+Name: org/eclipse/birt/chart/model/attribute/Stretch.class
+SHA1-Digest: B9D4JZlOaYgZObryYFgk6GO9MzM=
+
+Name: org/eclipse/birt/chart/model/data/impl/DateTimeDataSetImpl.class
+SHA1-Digest: A0yUXjVQrncJuDk+bBza2lr20gE=
+
+Name: org/eclipse/birt/chart/model/attribute/FormatSpecifier.class
+SHA1-Digest: D3TyXdwf93pYeL5U5KZA9YgMjtU=
+
+Name: schema/doc/org.eclipse.birt.chart.engine.xservers.html
+SHA1-Digest: FtPTCHKN3rC3dlk5xjbs3FV3R8A=
+
+Name: org/eclipse/birt/chart/computation/withaxes/VerticalAxisAdjuster
+ .class
+SHA1-Digest: qyi7hIhB6fEb4A3DWekWYTxWjFE=
+
+Name: org/eclipse/birt/chart/model/attribute/impl/MarkerImpl.class
+SHA1-Digest: b5wyKqXUiRlx3GB4rVTGDxedDB4=
+
+Name: org/eclipse/birt/chart/model/data/impl/DataFactoryImpl.class
+SHA1-Digest: 3PiUpR++hsj11b7MPXHZFiQB97A=
+
+Name: org/eclipse/birt/chart/model/type/BubbleSeries.class
+SHA1-Digest: 2gvf/faqzNm53b+Y+EvSZV5jijE=
+
+Name: org/eclipse/birt/chart/util/ChartExpressionUtil.class
+SHA1-Digest: kY+WscNak/vaVTAnoHDaprvJCNs=
+
+Name: org/eclipse/birt/chart/computation/DataPointHints.class
+SHA1-Digest: yjslcP0xOoLv4Nl7oxSnFAlKiDo=
+
+Name: org/eclipse/birt/chart/datafeed/IDataPointDefinition.class
+SHA1-Digest: 4KWwGo9h0vyw0h9jGonBO6je5NU=
+
+Name: org/eclipse/birt/chart/style/BaseStyleProcessor.class
+SHA1-Digest: m/aYMxYS7owikvOeTbsMhtQ1Tyo=
+
+Name: org/eclipse/birt/chart/model/data/SeriesGrouping.class
+SHA1-Digest: +zvJgkZnl/AO9e6J8IEdwSPskwk=
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.example.org/TV"
+            class="http://www.example.org/TV"
+            genModel="src/org/eclipse/birt/chart/piecewiseconstant/genmodel/piecewiseconstant.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="tv"
+            class="org.eclipse.birt.chart.piecewiseconstant.model.util.PiecewiseConstantResourceFactoryImpl"/>
+   </extension>
+   
+   <!--Used to register a chart type for it appears for selection in the chart wizard.
+    The class "org.eclipse.birt.chart.timeview.ui.type.PieceWiseConstantGraph" and "org.eclipse.birt.chart.timeview.ui.type.EventGraph" defines
+     the subtypes and user interface images, supported dimensions, and other chart type features.As we have two different chart types, hence two different classes.
+   -->
+   <extension
+         id="ChartWizardContext"
+         name="PiecewiseConstantChart"
+         point="org.eclipse.birt.chart.ui.types">
+      <chartType
+            classDefinition="org.eclipse.birt.chart.piecewiseconstant.ui.type.PiecewiseConstantChart"
+            name="PiecewiseConstantChart"></chartType>
+                
+            
+   </extension>
+   
+   <!--the extension point builds a custom user interface for "piecewise constant and event chart series "type. 
+   The SeriesType mentions the series associated with the respective seriesUI provider. This plugin extension point defines 2 UI interfaces - for 
+   "piecewise constant chart and "event chart" and maps with the respective seriesType "PieceWiseConstant and EventSeries"  -->
+   <extension
+         point="org.eclipse.birt.chart.ui.seriescomposites">
+      <seriescomposite
+            seriesType="org.eclipse.birt.chart.piecewiseconstant.model.impl.PiecewiseConstantImpl"
+            seriesUIProvider="org.eclipse.birt.chart.piecewiseconstant.ui.series.PiecewiseConstantSeriesUIProvider">
+      </seriescomposite>
+   </extension>
+   
+   <!--Used to render a specific series type.This plugin extension point has 2 model renderes. One for piecewiseConstant and other for Event chart.
+   The rendere class is mapped with its respective series.
+   -->
+   <extension
+         point="org.eclipse.birt.chart.engine.modelrenderers">
+      <modelRenderer
+            renderer="org.eclipse.birt.chart.piecewiseconstant.render.PiecewiseConstantRenderer"
+            series="org.eclipse.birt.chart.piecewiseconstant.model.impl.PiecewiseConstantImpl">
+      </modelRenderer>
+   </extension>
+   
+   <!--Used to specify a class to process each row of data for a specific series type. this extension point is used only if the chart requires a unique data-point type.
+   Here each data point requires the the numerical representation((i.e) level) of the string data. Each data point has 4 values. level, labeldata, prevLevel, prevLabel data.
+   This extension point  has the processor class name and the series to which it is mapped to for piecewise Consatnt and event chart respectively.
+   -->
+   <extension
+         point="org.eclipse.birt.chart.engine.datasetprocessors">
+      <datasetProcessor
+            processor="org.eclipse.birt.chart.piecewiseconstant.dataprocessor.PiecewiseConstantDataSetProcessor"
+            series="org.eclipse.birt.chart.piecewiseconstant.model.impl.PiecewiseConstantImpl">
+      </datasetProcessor>
+   </extension>
+   
+   <!--
+   -->
+   <extension
+         point="org.eclipse.birt.chart.engine.charttypes">
+      <chartType
+            modelLoader="org.eclipse.birt.chart.piecewiseconstant.genmodel.PiecewiseConstantModelLoader"
+            namespaceURI="http://www.birt.eclipse.org/TVChartModelType">
+      </chartType>
+   </extension>
+   
+   <!--Used to define an individual data point in a series. This extension point returns the point types and display text for a data point in a particular series.Each series is mapped 
+   to the respective datapoint definition.
+   -->
+   <extension
+         point="org.eclipse.birt.chart.engine.datapointdefinitions">
+      <datapointDefinition
+            definition="org.eclipse.birt.chart.piecewiseconstant.datapointdefinition.PiecewiseConstantDataPointDefinition"
+            series="org.eclipse.birt.chart.piecewiseconstant.model.impl.PiecewiseConstantImpl">
+      </datapointDefinition>
+   </extension>
+</plugin>
