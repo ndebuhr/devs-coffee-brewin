@@ -102,6 +102,9 @@ public class BrewerControl extends ViewableAtomic {
 	} else if (phaseIs("Standby")) {
 	    phase = "Passive";
 	    sigma = INFINITY;
+	} else if (phaseIs("Passive")) {
+	    phase = "Passive";
+	    sigma = INFINITY;
 	}
 	System.out.println("Internal-Phase after: " + phase);
     }
