@@ -17,9 +17,11 @@ public class ComposedBrewer extends ViewableDigraph
     public ComposedBrewer(){
 	super("ComposedBrewer");
 	
-	ViewableAtomic controller = new BrewerControl();
+	ViewableAtomic controller = new BrewerControl("BrewerControl", 3, 40,
+						      2, 85, 200);
 	// ViewableAtomic requester = new Requester();
-	ViewableAtomic boiler = new Boiler();
+	ViewableAtomic boiler = new Boiler("Boiler", 0.5, 100, 10,
+					   1, 1, 0.05);
 	
 	add(controller);
 	// add(requester);
