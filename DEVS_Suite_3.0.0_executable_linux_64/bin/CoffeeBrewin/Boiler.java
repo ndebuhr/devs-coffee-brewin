@@ -92,7 +92,7 @@ public class Boiler extends ViewableAtomic {
 		phase = "Passive";
 		sigma = INFINITY;
 	    } else {
-		boiler_temp = boiler_temp + heat_flux/(volume*density*heat_capacity);
+		boiler_temp = boiler_temp + time_step*(heat_flux/(volume*density*heat_capacity));
 		brewed_part = brewed_part + (time_step/flow);
 		holdIn("Brewing", time_step);
 	    }
