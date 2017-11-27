@@ -1,0 +1,11 @@
+import time
+import numpy as np
+import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
+
+plt.figure(1)
+
+
+# while(True):
+for i in range(0,1000):
+    time.sleep(0.1)
