@@ -27,7 +27,7 @@ public class BrewerControl extends ViewableAtomic {
     protected double max_safe_temp;
 
     public BrewerControl() {
-	this("BrewerControl", 1, 30, 2, 12, 200);
+	this("BrewerControl", 0.4, 30, 0.7, 12, 200);
     }
 
     public BrewerControl(String name, double Register_time, double Safety_timeout,
