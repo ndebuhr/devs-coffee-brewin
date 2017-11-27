@@ -17,8 +17,8 @@ public class ComposedBrewer extends ViewableDigraph
     public ComposedBrewer(){
 	super("ComposedBrewer");
 	
-	ViewableAtomic controller = new BrewerControl("BrewerControl", 3, 40,
-						      2, 85, 200);
+	ViewableAtomic controller = new BrewerControl("BrewerControl", 0.5, 40,
+						      0.8, 85, 200);
 	// ViewableAtomic requester = new Requester();
 	ViewableAtomic boiler = new Boiler("Boiler", 0.1, 200, 10,
 					   1, 1, 0.05);
@@ -67,8 +67,8 @@ public class ComposedBrewer extends ViewableDigraph
     public void layoutForSimView()
     {
         preferredSize = new Dimension(591, 269);
-        ((ViewableComponent)withName("BrewerControl")).setPreferredLocation(new Point(53, 196));
-        ((ViewableComponent)withName("Boiler")).setPreferredLocation(new Point(35, 119));
-        ((ViewableComponent)withName("CoffeePot")).setPreferredLocation(new Point(50, 50));
+        ((ViewableComponent)withName("CoffeePot")).setPreferredLocation(new Point(181, 25));
+        ((ViewableComponent)withName("BrewerControl")).setPreferredLocation(new Point(81, 174));
+        ((ViewableComponent)withName("Boiler")).setPreferredLocation(new Point(-10, 65));
     }
 }

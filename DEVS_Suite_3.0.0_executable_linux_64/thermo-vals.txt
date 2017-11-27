@@ -1,2 +1,2 @@
-BoilerTemp:117.0
-PortionBrewed:92.0
+BoilerTemp:93.0
+PortionBrewed:68.0
