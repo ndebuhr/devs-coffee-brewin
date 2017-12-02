@@ -36,7 +36,7 @@ public class Pot extends ViewableAtomic {
 
     public void initialize() {
 	phase = "Passive";
-	// Possible phases include Passive and Brewing
+	// Possible phases include Passive and Reading
 	sigma = INFINITY;
 	temp_count = 1;
 	pot_temp = 25; //Room temperature
