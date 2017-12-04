@@ -1,0 +1,1 @@
+The top level model is the ComposedBrewer.  Running this model would simulate the coffee brewer.  The animation "plot-along.py" in the py folder should be ran in parallel if model behavior is to be visually observed during execution.  The python animation system uses Python3. 
