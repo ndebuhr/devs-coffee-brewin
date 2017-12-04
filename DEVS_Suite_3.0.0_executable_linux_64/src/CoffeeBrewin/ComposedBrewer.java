@@ -19,27 +19,32 @@ public class ComposedBrewer extends ViewableDigraph
 	
 	ViewableAtomic controller = new BrewerControl("BrewerControl", 3, 40,
 						      2, 85, 200);
-	// ViewableAtomic requester = new Requester();
+	ViewableAtomic requester = new Requester();
 	ViewableAtomic boiler = new Boiler("Boiler", 0.1, 200, 10,
 					   1, 1, 0.05);
-
 	ViewableAtomic pot = new Pot("CoffeePot");
-	    
+	ViewableAtomic transducer = new Transducer("Transducer");
+	
 	add(controller);
-	// add(requester);
+	add(requester);
 	add(boiler);
 	add(pot);
+	add(transducer);
 	
 	addInport("inThermo");
 	addInport("inUser");
 	addOutport("outThermo");
 	addOutport("outUser");
 	addOutport("CoffeeTemp");
+
+	addCoupling(pot, "PotTemp", transducer, "CoffeeTemp");
 	
 	addCoupling(this, "inThermo", controller, "inThermo");
 	addCoupling(this, "inUser", controller, "inUser");
-	// addCoupling(requester, "forThermo", controller, "inThermo");
-	// addCoupling(requester, "forUser", controller, "inUser");
+
+	addCoupling(requester, "forThermo", controller, "inThermo");
+	addCoupling(requester, "forUser", controller, "inUser");
+
 	addCoupling(controller, "outThermo", this, "outThermo");
 	addCoupling(controller, "outUser", this, "outUser");
 
@@ -66,7 +71,11 @@ public class ComposedBrewer extends ViewableDigraph
      */
     public void layoutForSimView()
     {
-        preferredSize = new Dimension(591, 269);
-	
+        preferredSize = new Dimension(773, 329);
+        ((ViewableComponent)withName("Boiler")).setPreferredLocation(new Point(25, 34));
+        ((ViewableComponent)withName("Transducer")).setPreferredLocation(new Point(322, 250));
+        ((ViewableComponent)withName("Requester")).setPreferredLocation(new Point(33, 253));
+        ((ViewableComponent)withName("BrewerControl")).setPreferredLocation(new Point(151, 135));
+        ((ViewableComponent)withName("CoffeePot")).setPreferredLocation(new Point(308, 38));
     }
 }
