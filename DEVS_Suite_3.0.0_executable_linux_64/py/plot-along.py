@@ -48,9 +48,9 @@ for i in range(0,100000):
     currentAxis.add_patch(Rectangle((30, 80), 60, 10, facecolor="black"))
     currentAxis.add_patch(Rectangle((60, 75), 10, 5, facecolor="black"))
     currentAxis.add_patch(Rectangle((15, 25), 20, 60, facecolor="grey"))
-    currentAxis.add_patch(Rectangle((15, 25), 20, 0.6*(100-PortionBrewed), facecolor="blue"))
+    currentAxis.add_patch(Rectangle((15, 25), 20, 60*(1-PortionBrewed), facecolor="blue"))
     currentAxis.add_patch(Rectangle((50, 30), 30, 40, facecolor="grey"))
-    currentAxis.add_patch(Rectangle((50, 30), 30, 0.4*(PortionBrewed), facecolor=[77/255, 38/255, 0]))
+    currentAxis.add_patch(Rectangle((50, 30), 30, 40*(PortionBrewed), facecolor=[77/255, 38/255, 0]))
 
     if PortionBrewed < 100:
         if len(str(BoilerTemp)) > 5:

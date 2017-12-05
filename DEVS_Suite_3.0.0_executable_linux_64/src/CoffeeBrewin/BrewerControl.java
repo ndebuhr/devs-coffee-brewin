@@ -83,7 +83,7 @@ public class BrewerControl extends ViewableAtomic {
 			else if (Double.parseDouble(x.getValOnPort("inThermo", i).toString()) == 0)
 			    holdIn("BrewReady", display_time);
 			else
-			    holdIn("BrewProgress", sigma - e);
+			    holdIn("BrewProgress", sigma);
 		    }
 		}
 	}

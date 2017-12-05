@@ -88,7 +88,7 @@ public class Boiler extends ViewableAtomic {
 	    
 	System.out.println("Internal-Phase before: " + phase);
 	if (phaseIs("Brewing")) {
-	    if (brewed_part >= 100) {
+	    if (brewed_part >= 1) {
 		phase = "Passive";
 		sigma = INFINITY;
 	    } else {
@@ -116,7 +116,7 @@ public class Boiler extends ViewableAtomic {
     public message out() {
 	message m = new message();
 	if (phaseIs("Brewing")) {
-	    if (brewed_part < 100) {
+	    if (brewed_part < 1) {
 		String current_temp = Double.toString(boiler_temp);
 		m.add(makeContent("Status", new entity(current_temp)));
 	    } else {

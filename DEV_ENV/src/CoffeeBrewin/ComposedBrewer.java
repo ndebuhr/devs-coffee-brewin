@@ -17,19 +17,19 @@ public class ComposedBrewer extends ViewableDigraph
     public ComposedBrewer(){
 	super("ComposedBrewer");
 	
-	ViewableAtomic controller = new BrewerControl("BrewerControl", 3, 40,
-						      2, 85, 200);
-	ViewableAtomic requester = new Requester();
-	ViewableAtomic boiler = new Boiler("Boiler", 0.1, 200, 10,
-					   1, 1, 0.05);
+	ViewableAtomic controller = new BrewerControl("BrewerControl", 1.5, 600,
+						      0.5, 300, 100);
+	// ViewableAtomic requester = new Requester();
+	ViewableAtomic boiler = new Boiler("Boiler", 1, 300, 0.001,
+					   1000, 4180, 900);
 	ViewableAtomic pot = new Pot("CoffeePot");
-	ViewableAtomic transducer = new Transducer("Transducer");
+	// ViewableAtomic transducer = new Transducer("Transducer");
 	
 	add(controller);
-	add(requester);
+	// add(requester);
 	add(boiler);
 	add(pot);
-	add(transducer);
+	// add(transducer);
 	
 	addInport("inThermo");
 	addInport("inUser");
@@ -37,13 +37,13 @@ public class ComposedBrewer extends ViewableDigraph
 	addOutport("outUser");
 	addOutport("CoffeeTemp");
 
-	addCoupling(pot, "PotTemp", transducer, "CoffeeTemp");
+	// addCoupling(pot, "PotTemp", transducer, "CoffeeTemp");
 	
 	addCoupling(this, "inThermo", controller, "inThermo");
 	addCoupling(this, "inUser", controller, "inUser");
 
-	addCoupling(requester, "forThermo", controller, "inThermo");
-	addCoupling(requester, "forUser", controller, "inUser");
+	// addCoupling(requester, "forThermo", controller, "inThermo");
+	// addCoupling(requester, "forUser", controller, "inUser");
 
 	addCoupling(controller, "outThermo", this, "outThermo");
 	addCoupling(controller, "outUser", this, "outUser");
