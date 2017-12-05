@@ -19,17 +19,17 @@ public class ComposedBrewer extends ViewableDigraph
 	
 	ViewableAtomic controller = new BrewerControl("BrewerControl", 1.5, 600,
 						      0.5, 300, 100);
-	// ViewableAtomic requester = new Requester();
+	ViewableAtomic requester = new Requester();
 	ViewableAtomic boiler = new Boiler("Boiler", 1, 300, 0.001,
 					   1000, 4180, 900);
 	ViewableAtomic pot = new Pot("CoffeePot");
-	// ViewableAtomic transducer = new Transducer("Transducer");
+	ViewableAtomic transducer = new Transducer("Transducer");
 	
 	add(controller);
-	// add(requester);
+	add(requester);
 	add(boiler);
 	add(pot);
-	// add(transducer);
+	add(transducer);
 	
 	addInport("inThermo");
 	addInport("inUser");
@@ -37,13 +37,13 @@ public class ComposedBrewer extends ViewableDigraph
 	addOutport("outUser");
 	addOutport("CoffeeTemp");
 
-	// addCoupling(pot, "PotTemp", transducer, "CoffeeTemp");
+	addCoupling(pot, "PotTemp", transducer, "CoffeeTemp");
 	
 	addCoupling(this, "inThermo", controller, "inThermo");
 	addCoupling(this, "inUser", controller, "inUser");
 
-	// addCoupling(requester, "forThermo", controller, "inThermo");
-	// addCoupling(requester, "forUser", controller, "inUser");
+	addCoupling(requester, "forThermo", controller, "inThermo");
+	addCoupling(requester, "forUser", controller, "inUser");
 
 	addCoupling(controller, "outThermo", this, "outThermo");
 	addCoupling(controller, "outUser", this, "outUser");
@@ -72,8 +72,10 @@ public class ComposedBrewer extends ViewableDigraph
     public void layoutForSimView()
     {
         preferredSize = new Dimension(591, 269);
-        ((ViewableComponent)withName("Boiler")).setPreferredLocation(new Point(193, 71));
-        ((ViewableComponent)withName("CoffeePot")).setPreferredLocation(new Point(50, 50));
-        ((ViewableComponent)withName("BrewerControl")).setPreferredLocation(new Point(50, 50));
+        ((ViewableComponent)withName("Requester")).setPreferredLocation(new Point(50, 200));
+        ((ViewableComponent)withName("BrewerControl")).setPreferredLocation(new Point(35, 124));
+        ((ViewableComponent)withName("Boiler")).setPreferredLocation(new Point(-12, 47));
+        ((ViewableComponent)withName("CoffeePot")).setPreferredLocation(new Point(191, 35));
+        ((ViewableComponent)withName("Transducer")).setPreferredLocation(new Point(227, 199));
     }
 }
