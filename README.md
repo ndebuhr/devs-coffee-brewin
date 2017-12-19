@@ -1,2 +1,4 @@
 # devs-coffee-brewin
 A simulation of coffee maker behavior, modeled through the DEVS formalism and coupled component models
+
+The top level model is the ComposedBrewer.  Running this model will simulate the coffee brewer model.  The Requester model will generate random thermocouple readings and user interactions.   Being that the Requester generates random data, observing model execution a second time may generate additional insights beyond the initial simulation run.  In the unlikely case that the random model stimulation does not produce an "On" input from the user, it is recommended to run the simulation again until this baseline behavior is observed.  The animation "plot-along.py" in the py folder should be ran in parallel if model behavior is to be visually observed during execution.  The python animation system uses Python3.  
