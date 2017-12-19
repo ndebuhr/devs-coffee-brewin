@@ -1,3 +1,9 @@
+/*     
+ *    
+ *  Author     : Neal DeBuhr
+ *  Version    : DEVS-Suite 3.0.0  
+ *  Date       : 12-19-2017
+ */
 package CoffeeBrewin;
 import java.awt.*;
 
@@ -72,10 +78,6 @@ public class ComposedBrewer extends ViewableDigraph
     public void layoutForSimView()
     {
         preferredSize = new Dimension(591, 269);
-        ((ViewableComponent)withName("Requester")).setPreferredLocation(new Point(50, 200));
-        ((ViewableComponent)withName("BrewerControl")).setPreferredLocation(new Point(35, 124));
-        ((ViewableComponent)withName("Boiler")).setPreferredLocation(new Point(-12, 47));
-        ((ViewableComponent)withName("CoffeePot")).setPreferredLocation(new Point(191, 35));
-        ((ViewableComponent)withName("Transducer")).setPreferredLocation(new Point(227, 199));
+	
     }
 }

@@ -1,24 +1,19 @@
-/**
- * DEVS-Suite Simulator
- * Arizona Center for Integrative Modeling & Simulation
- * Arizona State University, Tempe, AZ, USA
- *
- * Author(s): H.S. Sarjoughian & C. Zhang
+/*     
+ *    
+ *  Author     : Neal DeBuhr
+ *  Version    : DEVS-Suite 3.0.0  
+ *  Date       : 12-19-2017
  */
-
 package CoffeeBrewin;
 
 import java.util.Random;
-
 import GenCol.*;
-
 import model.modeling.*;
-
 import view.modeling.ViewableAtomic;
 
 public class Requester extends ViewableAtomic {
 
-	// variable for sequencing order of internal transition states and thus outputs
+    // variable for sequencing order of internal transition states and thus outputs
     protected int count;
     
     public Requester() {
@@ -33,7 +28,6 @@ public class Requester extends ViewableAtomic {
     
     public void initialize() {
 	holdIn("active", 0);
-	//initial value 
 	count = 0;
 	super.initialize();
     }
@@ -76,7 +70,6 @@ public class Requester extends ViewableAtomic {
 	    next_val = Integer.toString(randomGenerator.nextInt(230));
 	}
 	
-	//default content is needed  
 	content con = makeContent(next_port, new entity(next_val));
 	System.out.println("--------Count ="+count);
 

@@ -1,3 +1,9 @@
+/*     
+ *    
+ *  Author     : Neal DeBuhr
+ *  Version    : DEVS-Suite 3.0.0  
+ *  Date       : 12-19-2017
+ */
 package CoffeeBrewin;
 import java.awt.*;
 

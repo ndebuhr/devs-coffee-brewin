@@ -1,8 +1,8 @@
 /*     
  *    
- *  Author     : ACIMS(Arizona Center for Integrative Modeling & Simulation)
+ *  Author     : Neal DeBuhr
  *  Version    : DEVS-Suite 3.0.0  
- *  Date       : 10-01-2017
+ *  Date       : 12-19-2017
  */
 package CoffeeBrewin;
 
