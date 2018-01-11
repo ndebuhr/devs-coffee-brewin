@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.10.28)  19 DEC 2017 12:01
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.10.28)  11 JAN 2018 12:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -384,6 +384,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `CSE561-ProjectReport-v06.toc'.
 
  [2]
+Missing character: There is no ﬂ in font cmr10!
+Missing character: There is no ﬂ in font cmr10!
 File: input/Decomposed_v04.png Graphic file (type QTm)
  <use  "input/Decomposed_v04.png" >
 File: input/Composed_v04.png Graphic file (type QTm)
@@ -486,9 +488,7 @@ File: input/test-3.png Graphic file (type QTm)
 
 <use  "input/test-3.png" > [16]
 File: input/test-3-plot.png Graphic file (type QTm)
- <use  "input/test-3-plot.png" >
-Missing character: There is no ’ in font cmr10!
- [17] [18]
+ <use  "input/test-3-plot.png" > [17] [18]
 Missing character: There is no ö in font cmr10!
 
 Overfull \hbox (24.2623pt too wide) in paragraph at lines 1178--1179
@@ -501,10 +501,10 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (../../devs-coffee-brewin/DEVS_Suite_3.0.0_executable_linux_64/src/CoffeeBrewin
 /ComposedBrewer.java
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
  [20]) [21]
 (../../devs-coffee-brewin/DEVS_Suite_3.0.0_executable_linux_64/src/CoffeeBrewin
 /Pot.java
@@ -539,12 +539,12 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ### semi simple group (level 1) entered at line 1175 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 6437 strings out of 495579
- 103675 string characters out of 6187321
- 226462 words of memory out of 5000000
- 9566 multiletter control sequences out of 15000+600000
+ 6434 strings out of 495579
+ 103627 string characters out of 6187321
+ 225462 words of memory out of 5000000
+ 9563 multiletter control sequences out of 15000+600000
  14467 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 40i,20n,46p,1846b,1696s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,20n,46p,1845b,1696s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on CSE561-ProjectReport-v06.pdf (32 pages).

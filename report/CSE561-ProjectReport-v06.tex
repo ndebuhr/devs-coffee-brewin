@@ -122,13 +122,13 @@
 
 \section{Introduction}
 \label{sec:int}
-Globally, annual coffee production last year was 9 million metric tons (Coffee market...) - this is equivalent to about a million African elephants (Frei), in weight, and fills 150 million 60kg coffee sacks.  Coffee is clearly loved around the world.  For some, coffee is an experience - a treat to be enjoyed when a suitable occasion arises.  For others, coffee is a necessary foundation for a productive day of work and activity.  Regardless the reason for drinking, very few people understand the mechanics of coffee brewing.  This is evident by uninformed consumer decisions regarding coffee makers.  Despite an appearance of simplicity, coffee makers can be understood through a wide variety of experimental frames, levels of system specification, and modeling paradigms.  Through modeling and simulation, valuable insights can be uncovered about coffee brewing.
+Globally, annual coffee production last year was 9 million metric tons (Coffee market...) - this is equivalent to about a million African elephants (Frei) in weight, and fills 150 million 60 kg coffee sacks. Coffee is clearly loved around the world. For some, the drink is an experience - a treat to be enjoyed when a suitable occasion arises. For others, coffee is a necessary foundation of a productive day of work and activity. Regardless of the reasons for drinking, very few people understand the mechanics of coffee brewing. This is evident by uninformed consumer decisions regarding coffee makers. Despite an appearance of simplicity, coffee makers can be understood through a wide variety of experimental frames, levels of system specification, and modeling paradigms. Through modeling and simulation, valuable insights about coffee brewing can be uncovered.
 
 \subsection{Experimental Frames}
-The system can be framed from the hydrological/chemical perspective, thermodynamic perspective, control systems perspective, or the user perspective (to name just a few).  The experimental frame serves as a lens for any modeling and simulation effort.  For this report, the system will be approached from primarily a thermodynamic and control systems experimental frame.  Using this experimental frame enables the capturing of core user IO behavior, as well as the fundamental coffee brewing thermodynamic behavior.  Other possible experimental frames will be largely reduced to assumptions.  For example, the fluid mechanics will be reduced to an assumption of constant mass flow rate between the boiler and coffee pot during brewing.  Further, the chemical composition of the water will be treated as a parameter, rather than a variable.  
+The system can be framed from the hydrological/chemical perspective, thermodynamic perspective, control systems perspective, or the user perspective (to name just a few). The experimental frame serves as a lens for any modeling and simulation effort. For this report, the system will be approached primarily in a thermodynamic and control systems experimental frame. Using this frame enables the capturing of core user IO behavior, as well as the fundamental coffee brewing thermodynamic behavior. Other possible experimental frames will be largely reduced to assumptions. For example, the ﬂuid mechanics will be reduced to an assumption of constant mass ﬂow rate between the boiler and coffee pot during brewing. Further, the chemical composition of the water will be treated as a parameter, rather than a variable.
 
 \subsection{Levels of System Specification}
-There is value in developing multiple specifications of the model, at varying levels of system specification.  However, the ``coupled component'' (level four) system specification (Zeigler) will serve at the primary lens on the system during analysis.  This level of specification combines component systems through IO behavior, and is particularly intuitive/meaningful for the coffee maker system.  A representation of the system is provided in Figure \ref{fig:sysSpeDia}.  %With rigorously defined system structure and behavior, this representation is a level four system specification.
+There is value in developing multiple specifications of the model, at varying levels of specification.  However, the ``coupled component'' (level four) system specification (Zeigler) will serve as the primary lens on the system during analysis.  This level of specification combines component systems through IO behavior, and is particularly intuitive/meaningful for the coffee maker system.  A representation of the system is provided in Figure \ref{fig:sysSpeDia}.  %With rigorously defined system structure and behavior, this representation is a level four system specification.
 
 \begin{center}
   \begin{figure}[H]
@@ -148,7 +148,7 @@ There is value in developing multiple specifications of the model, at varying le
   \end{figure}
 \end{center}
 
-Composing these component systems into a larger system provides an alternative perspective on the system (Figure \ref{fig:comSysDia}).  This perspective lends itself to analysis of the behavioral, as opposed to structural, dynamics of the system. In the sense that this representation of the system does not capture structure and component system coupling, it is a lower level system specification (level three).  However, being that the composed model exhibits closure under coupling, the same tools for analysis of the atomic component models can be used to analyze the composed model.  This presents opportunities for additional insight and analytical flexibility for the modeling and simulation effort.
+Presenting these components as a larger system provides an alternative perspective on the system (Figure \ref{fig:comSysDia}).  This in turn lends itself to analysis of the behavioral, as opposed to structural, dynamics of the system. In the sense that this representation of the system does not capture structure and component system coupling, it is a lower level system specification (level three).  However, being that the composed model exhibits closure under coupling, the same tools for analysis of the atomic component models can be used to analyze the composed model.  This presents opportunities for additional insight and analytical flexibility for the modeling and simulation effort.
 
 System inference and system design are outside the scope of this project.  Rather, this project takes a systems analysis perspective on modeling and simulation.  As such, the foundational model for this project is a high level system specification.  From there, lower level system specifications are generated and interpreted.
 
@@ -157,7 +157,7 @@ System inference and system design are outside the scope of this project.  Rathe
 
 \subsection{Modeling Formalism}
 \label{sec:modPar}
-Most modern coffee makers utilize digital, discrete-time, systems for measurement, control, and interacting with the user.  However, the underlying thermodynamic, chemical, and electromechanical behavior lends itself to continuous-time representation.  This plurality of possible time bases, along with a multitude of formats for quantifying input, state, and output (eg. ``dispensing'' vs. +13 mL/sec), gives rise to a great number of modeling formalism possibilities.  In this project, the discrete event system specification (DEVS) formalism is used for simulation.  This modeling paradigm captures the system dynamics of the control system with relative ease.  However, the thermodynamic behavior is a bit more difficult to capture with this modeling formalism.  The the boiler heating element, pump, and coffee pot fluid mixing would most naturally be quantified through a differential equation system specification.  However, by discretizing the differential equations (more details on this in Section \ref{sec:buiTheSysSpe}), a discrete time system specification arises.  Then, the ``DEVS Wrapper'' approach can be employed to simulate the discrete time behavior within a DEVS environment.  The DEVS Bus approach brings power and flexibility to the modeling effort, mainly due to the ``universality of the DEVS representation and the ability of DEVS bus to support the basic system formalisms'' (Zeigler).  The only externality of the formalism embedding described above is the creation of a ``time step'' parameter.  With smaller values for the time step parameter, the DEVS simulation results will converge with the differential equation system specification behavior.  For this modeling project, the DEVS Suite software will serve as the simulator for the DEVS modeling described above.
+Most modern coffee makers utilize digital, discrete-time systems for measurement, control, and interacting with the user.  However, the underlying thermodynamic, chemical, and electromechanical behavior lends itself to continuous-time representation.  This plurality of possible time bases, along with a multitude of formats for quantifying input, state, and output (eg. ``dispensing'' vs. +13 mL/sec), gives rise to a great number of modeling formalism possibilities.  In this project, the discrete event system specification (DEVS) formalism is used for simulation.  This modeling paradigm captures the system dynamics of the control system with relative ease.  However, the thermodynamic behavior is a bit more difficult to capture with this modeling formalism.  The boiler heating element, pump, and coffee pot fluid mixing would most naturally be quantified through a differential equation system specification.  However, by discretizing the differential equations (more details on this in Section \ref{sec:buiTheSysSpe}), a discrete time system specification arises.  This way, the ``DEVS Wrapper'' approach can be employed to simulate the discrete time behavior within a DEVS environment.  The DEVS Bus approach brings power and flexibility to the modeling effort, mainly due to the ``universality of the DEVS representation and the ability of DEVS bus to support the basic system formalisms'' (Zeigler).  The only externality of the formalism embedding described above is the creation of a ``time step'' parameter.  With smaller values for the time step parameter, the DEVS simulation results will converge with the differential equation system specification behavior.  For this modeling project, the DEVS Suite software will serve as the simulator for the DEVS modeling described above.
 
 
 % COuld talk about quantization (page 9 main textbook) here.
@@ -175,7 +175,7 @@ While networking details are not considered in this analysis, this system classi
 \section{Problem Description}
 
 \subsection{Questions}
-This report approaches the coffee maker system from the thermodynamic and electronic perspective.  Valuable and actionable insights are the objective for the modeling and simulation effort.  Providing coffee consumers with additional insight into the coffee brewing process will relieve some of the information asymmetry in the market - a key problem detailed in Section \ref{sec:int}.  While a holistic and open-minded perspective is applied to the interpretation of simulation results, some possible questions addressed by the modeling and simulation effort include:
+This report approaches the coffee maker system from the thermodynamic and electronic perspective.  Valuable and actionable insights is the objective of the modeling and simulation effort.  Providing coffee consumers with additional insight into the coffee brewing process will relieve some of the information asymmetry in the market - a key problem detailed in Section \ref{sec:int}.  While a holistic and open-minded perspective is applied to the interpretation of the simulation results, some possible questions addressed by the modeling and simulation effort include:
 \begin{itemize}
 \item How does the selection of thermodynamic components influence the behavior of the brewer?
 \item Does the controls system latency give rise to any instability, or otherwise problematic behavior?
@@ -187,7 +187,7 @@ This report approaches the coffee maker system from the thermodynamic and electr
 \subsection{Assumptions}
 \label{sec:ass}
 
-The following assumptions support a simplification of the problem and a focusing on the desired experimental frame:
+The following assumptions support a simplification of the problem and a focus on the desired experimental frame:
 \begin{itemize}
 \item Constant mass flow rate during coffee pot filling
 \item Perfectly insulated boiler and coffee pot - no convection or conduction heat loss
@@ -196,12 +196,12 @@ The following assumptions support a simplification of the problem and a focusing
 \item No mass loss through steam or other mechanisms
 \item Ideal operation of boiler heating element - constant heat flux
 \item Complete absence of impurities in water - water is considered distilled
-\item No consideration for chemical reactions between the water and brewer components (eg. rusting)
+\item No consideration for chemical reactions between the water and brewer components (e.g. rusting)
 \end{itemize}
 
 \section{Approach}
 \subsection{Model Development}
-The essential construct of the system includes a boiler system component model, a coffee pot component model, and modeled digital electronics for user interaction and coffee maker control.  The system is open with respect to defined user inputs (eg. user pressing the ``On'' button) and outputs (eg. indicator lights to inform user of brewing state).
+The essential construct of the system includes a boiler system component model, a coffee pot component model, and modeled digital electronics for user interaction and coffee maker control.  The system is open with respect to defined user inputs (eg. user pressing the ``On'' button) and outputs (eg. indicator lights to inform the user of brewing state).
 %To understand the construction of the model and behavior of the component systems, a qualitative IOFO specification is considered, followed by a system diagram, and then mathematical characterization of key inputs, outputs, and functions.
 
 
@@ -232,7 +232,7 @@ The essential construct of the system includes a boiler system component model, 
 \end{center}
 
 \subsection{System Specification}
-Given that this project is a systems analysis initiative, the foundational definition of the system is a high level system specification.  As analysis proceeds, lower level system specifications are produced.
+Given that this project is a systems analysis initiative, the foundational definition of the system is a high level system specification.  As the analysis proceeds, lower level system specifications are produced.
 
 \begin{figure}[H]
 \begin{center}
@@ -274,7 +274,7 @@ Given that this project is a systems analysis initiative, the foundational defin
 
 \subsubsection{Model Components Qualitative Description}
 
-Thinking about the system holistically is an important predecessor to a more rigorous mathematical definition.  As such, this section seeks to provide some context and focus for component system structure and behavior.  Of particular importance is thinking through how the component systems will interact, and ports/constructs by which the the system structure translates to system behavior.
+Thinking about the system holistically is an important predecessor to a more rigorous mathematical definition.  As such, this section seeks to provide some context and focus for component system structure and behavior.  Of particular importance is considering how the component systems will interact, and ports/constructs by which the system structure translates to system behavior.
 \begin{figure}[H]
 \fbox{\begin{minipage}{0.98\textwidth}
 \textbf{Thermodynamic Component System} \\
@@ -533,7 +533,7 @@ Leaving the possibility for q to vary over time, this equation is of the linear 
 
 Embedding the differential equation system specification in a discrete time system specification utilizes numerical methods to discretize the thermodynamic functions.  
 
-For this project, the Euler approach is be employed to discretize the problem.  The Euler approximation suggests that for sufficiently small step sizes h,
+For this project, the Euler approach is employed to discretize the problem.  The Euler approximation suggests that for sufficiently small step sizes h,
 \begin{center}
   $\rho(t+h)=\rho(t)+h*\frac{d\rho}{dt}$ \\
   $\frac{d\rho}{dt}=\frac{\rho(t+h)-\rho(t)}{h}$ \\
@@ -543,7 +543,7 @@ A causal implementation of this Euler approach (one that uses only current and p
   $\frac{d\rho}{dt}=\frac{\rho(t)-\rho(t-h)}{h}$ \\
 \end{center}
 
-To handle the ``startup problem'' for the differential equation discretization, the water in the boiler is initialized to 25 degrees Celsius.  While the Euler approximation may be less accurate than alternative approaches, the Euler approximation shines in the area of stability.  
+To handle the ``startup problem'' for the differential equation discretization, the water in the boiler is initialized to 25 degrees Celsius.  While the Euler approximation may be less accurate than alternative approaches, it shines in the area of stability.  
 
 Using the discretized differential equation in the heat flux equation results in the following function:
 \begin{center}
@@ -682,7 +682,7 @@ This $T(n)$ equation will serve as the basis for the DEVS specification detailed
 
 Some notes on the specification above:
 \begin{itemize}
-\item Temperature and emptiness values should never be simultaneously sent - an empty boiler has no water temperature value
+\item Temperature and emptiness values should never be sent simultaneously - an empty boiler has no water temperature value
 \item Given the bullet above and the domain limits for both temperature and emptiness, these outputs can be stacked in a single communication channel
 \begin{itemize}
 \item An output value of 0 indicates the boiler is empty, whereas any value above 0 indicates the water temperature
@@ -792,7 +792,7 @@ Some notes on the specification above:
 \begin{itemize}
 \item The system keeps a running average of the received temperature values
 \item This specification would need to change if each brewed increment was not of the same volume
-\item The system immediately outputs the temperature of the coffee pot, after receiving a new increment of coffee
+\item The system immediately outputs the temperature of the coffee pot after receiving a new increment of coffee
 \item The specification assumes perfect and immediate mixing of the new coffee increment into the previously brewed coffee
 \end{itemize}
   
@@ -800,7 +800,7 @@ Some notes on the specification above:
 
 \textbf{Confluence Function}
 
-To handle simultaneous events, the confluence function is defined below.  This particular specification runs the internal state transition function, before the external state transition function - an approach applied to all the component models.
+To handle simultaneous events, the confluence function is defined below.  This particular specification runs the internal state transition function before the external state transition function - an approach applied to all the component models.
 
 \begin{center}
   $\delta_{con}(s,ta(s),x)=\delta_{ext}(\delta_{int}(s),0,x)$ \\
@@ -894,7 +894,7 @@ To handle simultaneous events, the confluence function is defined below.  This p
 %% An interface specification helps to define the mechanisms of simulation interactions.  With this modeling and simulation project, there are coupled system interactions and human-computer interface interactions.  For the interaction between component systems, a format such as JSON will be used to pass state information and other inter-component signals.  With the simulation running on a single computer, network considerations are not necessary.  Rather, the operating system will handle program executions and IO between component systems.  For the human-computer interface, a GUI will be employed.  This will enable intuitive interaction with the software.  Physical buttons and lights would ideal, to achieve closer alignment of the simulation and reality.  However, cost and time constraints prevent the realization of this approach.
 
 \subsection{Simulation Strategy}
-From a system architecture perspective, there is an important distinction between simulator and model.  For this project, the DEVS Suite is used as the simulator, while the model is developed in Java and conforms to the DEVS Suite simulator standards.  The capabilities of the DEVS Suite enables the stimulation of the coffee brewer model, as well as the processing of outputs.  Further, the flexible and modular construction of the coffee brewer model enables model reusability, extensibility, and adaptability.  A screenshot of the developed model, within the DEVS Suite simulator, is provided below:
+From a system architecture perspective, there is an important distinction between simulator and model.  For this project, the DEVS Suite is used as the simulator, while the model is developed in Java and conforms to the DEVS Suite simulator standards.  The capabilities of the DEVS Suite enable the stimulation of the coffee brewer model, as well as the processing of outputs.  Further, the flexible and modular construction of the coffee brewer model enable model reusability, extensibility, and adaptability.  A screenshot of the model, within the DEVS Suite simulator, is provided below:
 
 \begin{center}
   \begin{figure}[H]
@@ -923,9 +923,9 @@ The experimental frame for any simulation captures the lens for the experimentat
 
 
 \subsubsection{Animation}
-An important aspect of simulation strategy is the approach to interpreting simulation results.  Seeing as the coffee brewer system has a intuitive and natural physical representation, animation is of substantial value.  While this provides no new data, it does provide more in the way of insights/value.  Additionally, animation enables a wider audience, particularly those with a non-technical background, to be able to understand and interpret results.
+An important aspect of simulation strategy is the approach to interpreting simulation results.  Seeing as the coffee brewer system has an intuitive and natural physical representation, animation is of substantial value.  While this provides no new data, it does provide more in the way of insights/value.  Additionally, animation enables a wider audience, particularly those with a non-technical background, to understand and interpret results.
 
-For this project animation was implemented using a separate program, developed from scratch in Python.  During execution, the DEVS system was programmed to output key value pairs to regular system files within the project directory.  The Python animation program is started separately from the DEVS simulation.  Through a continuous refresh, the Python animation can track the progress of the DEVS simulation if the user ``steps'' through the model execution.  A screenshot of the animation program is provided below.
+For this project animation was implemented using a separate program, developed from scratch in Python.  During execution, the DEVS system was programmed to output key value pairs to regular system files within the project directory.  The Python animation program is started separately from the DEVS simulation.  Through a continuous refresh, the Python animation can track the progress of the DEVS simulation as the user ``steps'' through the model execution.  A screenshot of the animation program is provided below.
 
 \begin{center}
   \begin{figure}[H]
@@ -939,7 +939,7 @@ For this project animation was implemented using a separate program, developed f
 
 
 \subsection{Experimental Details}
-The modeling and simulation of the coffee maker primarily focused on more quantitative safety and functional features. This included the safety shutoff feature, the overheat prevention shutoff, and the temperature of the coffee. Tests were conducted using variation in heatflux and vertical flow. The temperature within the boiler and coffee pot was collected with each time interval. The difference between those temperatures at different heatflux values will be compared, along with whether or not a particular shut down mechanism was activated.
+The modeling and simulation of the coffee maker was primarily focused on more quantitative safety and functional features. This included the safety shutoff feature, the overheat prevention shutoff, and the temperature of the coffee. Tests were conducted using variation in heat flux and vertical flow. The temperature within the boiler and coffee pot was collected at each time interval. The difference between those temperatures at different heat flux values will be compared, along with whether or not a particular shut down mechanism was activated.
 
 \subsubsection{Regular Brew}
 \begin{multicols}{2}
@@ -1154,20 +1154,20 @@ the regular brew settings, the temperature of the output coffee was below the sa
 lower that what would typically be expected for coffee by about $20^o$C, sitting at $50^o$C. Under the safety
 timeout settings, the coffee does not completely brew. About 2/3 of the pot is brewed in 10
 minutes before the shutoff occurs. In the overheat shutoff test, the boiler had exceeded the
-acceptable safety threshold temperature within 6 minutes. This also was unable to complete the
+acceptable safety threshold temperature within 6 minutes. This also made it impossible to complete the
 pot.
 
-There is some evidence for strong results verification for the simulation runs.  For example, the emergency timeout occurs right at the expected 10 minute mark during that simulation run.  Further, the temperature barely reaches $100^o$C during the overheat shutoff case and the brew time matches expectation in the baseline simulation.  The simulator and modeling approach have been successfully adapted to a wide variety of projects, which provides some additional confidence with respect to verification.  Validation on the other hand is a more difficult assessment.  The timing and temperatures for the coffee brewing are within a physically intuitive range.  However, structuring the system so that the pump and heating element always operate together appears to generate some behavior that doesn't align with real world experience.  It may be preferrable to model the system such that the pump does not operate until the water is at a sufficiently high temperature.  Independent operation of the pump and heating element is an option for future exploration and an approach which is likely to result in better model validation.
+There is some evidence of strong results verification for the simulation runs.  For example, the emergency timeout occurs right at the expected 10 minute mark during that simulation run.  Further, the temperature barely reaches $100^o$C during the overheat shutoff case and the brew time matches expectation in the baseline simulation.  The simulator and modeling approach have been successfully adapted to a wide variety of projects, which provides some additional confidence with respect to verification.  Validation on the other hand is a more difficult assessment.  The timing and temperatures for the coffee brewing are within a physically intuitive range.  However, structuring the system so that the pump and heating element always operate together appears to generate some behavior that doesn't align with real world experience.  It may be preferable to model the system in such a way that the pump does not operate until the water is at a sufficiently high temperature.  Independent operation of the pump and heating element is an option for future exploration and an approach which is likely to result in better model validation.
 
 
 \section{Conclusions}
-There is a correlation between the heat flux and flow with the coffee brewers ability to
-complete the pot without exceeding safe temperatures within it’s boiler. Particularly, even with a
+There is an intuitive relationship between the heat flux, fluid flow rate, and the coffee brewers ability to
+complete the pot without exceeding temperature and time limits. Particularly, even with a
 relatively low heat flux, a low volumetric flow will result in the brewer shutting down before filling the
 pot. It makes logical sense for a low rate of transfer from the boiler to delay the brewing beyond a
-reasonable time frame. What would be off worth to examine in the future would be the use of a higher
-volumetric flow in order to manage with a greater heat flux. This may prevent overheating while
-allowing the pot to fill. There would likely be an increase in the speed which it fills as well. Therefore, it
+reasonable time frame. What would be worthy of examination in the future would be the use of a higher
+volumetric flow in order to manage a greater heat flux. This may prevent overheating while
+allowing the pot to fill. There would likely be an increase in the speed in which it fills as well. Therefore, it
 would be beneficial to look further into the degree of heat flux allowed in relation to volumetric flow.
 
 \newpage
